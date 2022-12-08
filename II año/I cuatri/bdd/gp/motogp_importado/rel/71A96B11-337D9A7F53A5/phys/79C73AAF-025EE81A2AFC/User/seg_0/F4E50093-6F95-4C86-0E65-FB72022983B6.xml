@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="UBD1420" directorySegmentName="seg_0" id="F4E50093-6F95-4C86-0E65-FB72022983B6">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjName>UBD1420</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:55 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<schemaObject>07F8F6EC-F9F3-F6C8-A5D3-BAF140ABBBD3</schemaObject>
+</UserOraclev10g>

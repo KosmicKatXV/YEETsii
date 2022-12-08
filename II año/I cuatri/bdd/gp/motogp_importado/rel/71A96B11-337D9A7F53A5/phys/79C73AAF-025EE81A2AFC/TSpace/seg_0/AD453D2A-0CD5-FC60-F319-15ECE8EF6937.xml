@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableSpaceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableSpaceOraclev10g" name="TS_ALUMNOS" directorySegmentName="seg_0" id="AD453D2A-0CD5-FC60-F319-15ECE8EF6937">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>UBD1420</sourceObjSchema>
+<sourceObjName>TS_ALUMNOS</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<emUniformSize>0</emUniformSize>
+<extentManagement>LOCAL</extentManagement>
+</TableSpaceOraclev10g>

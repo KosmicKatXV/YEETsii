@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2DCEC77C-1B73-A379-9D6F-F267BC108AA6" schemaObject="07F8F6EC-F9F3-F6C8-A5D3-BAF140ABBBD3" name="NUM_CURVA">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>UBD1420</sourceObjSchema>
+<sourceObjName>NUMERO_CURVA</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<ordsAlias>numero_curva</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NUMERO" id="9F29585F-51D3-BAD3-6944-00EBC20644B8">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>NUMERO_CURVA</sourceObjSchema>
+<sourceObjName>NUMERO</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ISLEFT" id="A7AE3C46-DF76-B076-3AC8-97D941CE7489">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>NUMERO_CURVA</sourceObjSchema>
+<sourceObjName>ISLEFT</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="4B7DD4EE-5D2C-E6BA-E737-A062053CC7E1">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>NUMERO_CURVA</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA" id="A3A46C52-63AC-E991-AFEB-7A6FD3CA4B43">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>NUMERO_CURVA</sourceObjSchema>
+<sourceObjName>CIRCUITO_FECHA</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0EF23A7C-109F-8D68-6D0E-B6E7B83C6FAF" referredColumn="B4434FD2-E19D-629E-F21D-82DD5CCD35FD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="77F0975F-F026-0B32-4F76-E0B407DA1843" name="NUMERO_CURVA_PK">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>UBD1420</sourceObjSchema>
+<sourceObjName>NUMERO_CURVA_PK</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:58 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F29585F-51D3-BAD3-6944-00EBC20644B8"/>
+<colUsage columnID="A3A46C52-63AC-E991-AFEB-7A6FD3CA4B43"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4FE9B0C4-D7D6-49F8-D3F9-E6D98C944D6F" schemaObject="07F8F6EC-F9F3-F6C8-A5D3-BAF140ABBBD3" name="NUMERO_CURVA_PK">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>UBD1420</sourceObjSchema>
+<sourceObjName>NUMERO_CURVA_PK</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:57 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F29585F-51D3-BAD3-6944-00EBC20644B8"/>
+<colUsage columnID="A3A46C52-63AC-E991-AFEB-7A6FD3CA4B43"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E611E172-80EE-2A3D-127F-99410BA940DC" name="NUMERO_CURVA_CIRCUITO_FK">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:59 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3A46C52-63AC-E991-AFEB-7A6FD3CA4B43"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

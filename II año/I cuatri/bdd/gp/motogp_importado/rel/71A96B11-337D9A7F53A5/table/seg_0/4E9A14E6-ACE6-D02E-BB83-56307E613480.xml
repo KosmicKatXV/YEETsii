@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4E9A14E6-ACE6-D02E-BB83-56307E613480" schemaObject="07F8F6EC-F9F3-F6C8-A5D3-BAF140ABBBD3" name="EXPERIENCIA">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>UBD1420</sourceObjSchema>
+<sourceObjName>EXPERIENCIA</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PILOTO_DORSAL" id="6C04B44B-614A-1CBE-6FB9-4B8C05E9E45C">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>EXPERIENCIA</sourceObjSchema>
+<sourceObjName>PILOTO_DORSAL</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="79DE7971-53F1-BA5F-A86D-21C05242810B" referredColumn="E36FF721-7253-E1C7-195E-743B92EFEBEB"/>
+</associations>
+</Column>
+<Column name="PILOTO_DORSAL1" id="A3EC60C8-E8C0-A1F0-0ACA-89F2B7106A29">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>EXPERIENCIA</sourceObjSchema>
+<sourceObjName>PILOTO_DORSAL1</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="818CAAB8-9063-FF59-D098-03F2DA499167" referredColumn="E36FF721-7253-E1C7-195E-743B92EFEBEB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C4BE9071-5507-CC06-7A14-50EB26EE20EB" name="EXPERIENCIA_PK">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>UBD1420</sourceObjSchema>
+<sourceObjName>EXPERIENCIA_PK</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:58 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C04B44B-614A-1CBE-6FB9-4B8C05E9E45C"/>
+<colUsage columnID="A3EC60C8-E8C0-A1F0-0ACA-89F2B7106A29"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D4C59CC6-955C-0280-C9B9-C904B435D8D0" schemaObject="07F8F6EC-F9F3-F6C8-A5D3-BAF140ABBBD3" name="EXPERIENCIA_PK">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>UBD1420</sourceObjSchema>
+<sourceObjName>EXPERIENCIA_PK</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:57 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C04B44B-614A-1CBE-6FB9-4B8C05E9E45C"/>
+<colUsage columnID="A3EC60C8-E8C0-A1F0-0ACA-89F2B7106A29"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5AB48A78-59AB-6116-EB18-43336CB00457" name="EXPERIENCIA_PILOTO_FK">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:59 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C04B44B-614A-1CBE-6FB9-4B8C05E9E45C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E0B39CD7-09A9-60F1-0A78-74A815E9D258" name="EXPERIENCIA_PILOTO_FKV1">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:59 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3EC60C8-E8C0-A1F0-0ACA-89F2B7106A29"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

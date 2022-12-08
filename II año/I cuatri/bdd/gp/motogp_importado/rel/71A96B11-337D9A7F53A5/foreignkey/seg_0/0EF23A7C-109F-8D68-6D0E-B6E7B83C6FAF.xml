@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0EF23A7C-109F-8D68-6D0E-B6E7B83C6FAF" containerWithKeyObject="2DCEC77C-1B73-A379-9D6F-F267BC108AA6" localFKIndex="E611E172-80EE-2A3D-127F-99410BA940DC" name="NUMERO_CURVA_CIRCUITO_FK">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>UBD1420</sourceObjSchema>
+<sourceObjName>NUMERO_CURVA_CIRCUITO_FK</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:59 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<referredTableLongName>UBD1420.CIRCUITO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>31F9BD42-A0F6-5901-5A3E-75814EBAEA61</referredTableID>
+<keyObject>CF5A28EE-D44B-2760-ABF1-5D936D368644</keyObject>
+<referredKeyID>CF5A28EE-D44B-2760-ABF1-5D936D368644</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>FECHA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

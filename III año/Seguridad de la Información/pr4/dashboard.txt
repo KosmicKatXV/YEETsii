@@ -1,0 +1,8 @@
+Este es el dashboard principal desde el cual se controla la tienda online y obtendremos información general del desempeño de esta a lo largo del tiempo. Este es el estilo de dashboard que viene por defecto, tenemos la opción de personalizarlo añadiendo módulos que nos aportarán aún más información de nuestra tienda, así como
+nos desbloquearan funcionalidades que podrían llegar a ser útiles. Hay opciones gratuitas y
+de pago.
+DashBoard 0
+En esta captura podemos ver que el dashboard permite conectarse al mercado de PrestaShop donde se pueden obtener estos módulos. Debajo tenemos una visión general del tráfico que es dirigido a esta página web desde los visitantes hasta la información sobre los carritos. Por el otro lado tenemos un newsfeed de PrestaShop que aporta ideas y consejos para usar esta plataforma, además de un centro de ayuda y un apartados de actualizaciones.
+Dashboard 1
+Más adelante en esta captura vemos que tenemos un centro de notificaciones además de información más detallada sobre el tráfico como su origen o su tipo. Por último encontramos una ventana detallada sobre la información de pagos y su estado que corresponden a la empresa.
+

@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F40CA89F-E40D-596E-68A7-210882FB4D85" schemaObject="6A83CB41-0EA2-8FCC-9A78-329A702654A1" name="NUMERO_CURVA">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>UBD2359</sourceObjSchema>
+<sourceObjName>NUMERO_CURVA</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:58 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NUMERO" id="56E45322-7869-A8D8-29BA-315C6DB7FC88">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>NUMERO_CURVA</sourceObjSchema>
+<sourceObjName>NUMERO</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:59 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ISLEFT" id="283FC141-A59A-C661-9CAB-2C50EA9DB7EA">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>NUMERO_CURVA</sourceObjSchema>
+<sourceObjName>ISLEFT</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:59 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="6272ADE3-A328-26DD-FC0F-323C46EED4F6">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>NUMERO_CURVA</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:59 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CIRCUITO_FECHA" id="A833EA91-F722-DCDB-30C1-FD72EA2D7968">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>NUMERO_CURVA</sourceObjSchema>
+<sourceObjName>CIRCUITO_FECHA</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:59 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="22502637-B058-6D9C-31DC-14AEC04F63D3" referredColumn="538EECBA-BC95-19E8-9F9B-073D34EA6B49"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8A90B942-0916-5CF5-564F-9C5CF6F109EC" name="NUMERO_CURVA_PK">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>UBD2359</sourceObjSchema>
+<sourceObjName>NUMERO_CURVA_PK</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:49:00 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56E45322-7869-A8D8-29BA-315C6DB7FC88"/>
+<colUsage columnID="A833EA91-F722-DCDB-30C1-FD72EA2D7968"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C4F30667-D9E0-798C-C8A9-9C005F2F9622" schemaObject="6A83CB41-0EA2-8FCC-9A78-329A702654A1" name="NUMERO_CURVA_PK">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>UBD2359</sourceObjSchema>
+<sourceObjName>NUMERO_CURVA_PK</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:59 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56E45322-7869-A8D8-29BA-315C6DB7FC88"/>
+<colUsage columnID="A833EA91-F722-DCDB-30C1-FD72EA2D7968"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="36E56FEE-2951-3AA0-10A5-BC5589DE70A4" name="NUMERO_CURVA_CIRCUITO_FK">
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:49:01 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A833EA91-F722-DCDB-30C1-FD72EA2D7968"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

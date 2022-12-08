@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="ACTO_PUBLICO" directorySegmentName="seg_0" id="0FE20000-9873-B4D5-823B-0CF655A6C212">
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:58 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<schemaObject>6A83CB41-0EA2-8FCC-9A78-329A702654A1</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>4D1970D2-4406-A28D-A0AA-E72DF59C86BC</segment>
+<tableSpace>CD707475-53D6-AC02-B333-442B7E599BF4</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PERSONA_CONTACTO" id="046A39CD-31A0-AB10-F965-E5A41524620F">
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:59 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DIRECCION" id="4CE6B02F-2520-BF74-55DA-E7CEC4196CA8">
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:59 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA" id="CC34149F-F779-F0FF-5F3D-7DF47D93A533">
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:59 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NUMERO_CONTACTO" id="F08ECB57-F4A2-1C7A-A936-CCC2552AB9F1">
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:59 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESCRIPCION" id="FC57FAC1-9C20-3F81-7D7C-4BE07790E9AA">
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:59 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="ACTO_PUBLICO_PK" id="DFEF326D-92E0-5187-E490-4F6CE9A10D06">
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:59 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<schemaObject>6A83CB41-0EA2-8FCC-9A78-329A702654A1</schemaObject>
+<segment>868D05E5-5FC1-3B50-335A-AE219E9CC7C2</segment>
+<tableSpace>CD707475-53D6-AC02-B333-442B7E599BF4</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ACTO_PUBLICO_PK" id="748FD9EB-B491-3BF9-2CD2-366B9D3E2E27">
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:49:00 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<segment>868D05E5-5FC1-3B50-335A-AE219E9CC7C2</segment>
+<tableSpace>CD707475-53D6-AC02-B333-442B7E599BF4</tableSpace>
+<existingIndex>DFEF326D-92E0-5187-E490-4F6CE9A10D06</existingIndex>
+<indexSegment>868D05E5-5FC1-3B50-335A-AE219E9CC7C2</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

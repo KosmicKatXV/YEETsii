@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="CIRCUITO" directorySegmentName="seg_0" id="31F9BD42-A0F6-5901-5A3E-75814EBAEA61">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<schemaObject>07F8F6EC-F9F3-F6C8-A5D3-BAF140ABBBD3</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>41B93E74-C58B-5531-2ACD-D05E19649E2D</segment>
+<tableSpace>AD453D2A-0CD5-FC60-F319-15ECE8EF6937</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NOMBRE" id="015C121B-D9B8-A99D-FCD4-28F5C3F58EC5">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AÑO_INAGURACION" id="184F1E01-74A7-57FF-90FC-493B342E35D7">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ISCLOCKWISE" id="4304B12E-D4E1-1A59-DAAB-FB2D23C569EF">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TAMAÑO_TOTAL_METROS" id="4E5052DB-5229-AF5A-D162-781939A7D11B">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RECTA_LARGA_METROS" id="51EAE093-8542-2ED5-4D6D-82C233DD1B03">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA_CARRERA" id="597971B0-A6BB-D5D1-F830-0F50CE861A03">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STARTLEFT" id="5F19B3E8-2780-BC17-85EA-77B9B97C2FEB">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NUMERO_VUELTAS" id="68030194-9F8E-9206-B2F7-C516BA3D2189">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CIUDAD_CERCANA" id="9564A287-C930-963D-D9F9-E3D5A3A198AA">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA" id="B4434FD2-E19D-629E-F21D-82DD5CCD35FD">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MAPA" id="E24C7C73-EF51-77DE-A39C-1651CC2DCEAB">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PAIS" id="F0338024-4D78-FF4C-AA26-4FD054DCFABC">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ISWET" id="F5462423-D8FD-E21B-43AF-C42096A38689">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ANCHO_PISTA" id="FFA24469-3954-66CF-B276-DEA3E58344DE">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="CIRCUITO_FECHA_UN" id="1A47BE26-D196-E7C2-4DD1-2E9F94F431B4">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:57 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<schemaObject>07F8F6EC-F9F3-F6C8-A5D3-BAF140ABBBD3</schemaObject>
+<segment>D7B7A527-1516-CF72-F0FA-D2F978D10868</segment>
+<tableSpace>AD453D2A-0CD5-FC60-F319-15ECE8EF6937</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="CIRCUITO_PK" id="F70A82B3-03CA-229A-5494-6A3F20647C2F">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:57 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<schemaObject>07F8F6EC-F9F3-F6C8-A5D3-BAF140ABBBD3</schemaObject>
+<segment>D7B7A527-1516-CF72-F0FA-D2F978D10868</segment>
+<tableSpace>AD453D2A-0CD5-FC60-F319-15ECE8EF6937</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CIRCUITO_PK" id="919B7969-7C6A-8EBB-2A6B-DF1F43DA9C00">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:58 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<segment>D7B7A527-1516-CF72-F0FA-D2F978D10868</segment>
+<tableSpace>AD453D2A-0CD5-FC60-F319-15ECE8EF6937</tableSpace>
+<existingIndex>F70A82B3-03CA-229A-5494-6A3F20647C2F</existingIndex>
+<indexSegment>D7B7A527-1516-CF72-F0FA-D2F978D10868</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="CIRCUITO_FECHA_UN" id="CF5A28EE-D44B-2760-ABF1-5D936D368644">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:58 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<segment>D7B7A527-1516-CF72-F0FA-D2F978D10868</segment>
+<tableSpace>AD453D2A-0CD5-FC60-F319-15ECE8EF6937</tableSpace>
+<existingIndex>1A47BE26-D196-E7C2-4DD1-2E9F94F431B4</existingIndex>
+<indexSegment>D7B7A527-1516-CF72-F0FA-D2F978D10868</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev12c>

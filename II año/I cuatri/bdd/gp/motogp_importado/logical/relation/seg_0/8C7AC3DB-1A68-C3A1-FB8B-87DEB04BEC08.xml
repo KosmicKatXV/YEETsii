@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ENTRENAMIENTO_PILOTO_FK" directorySegmentName="seg_0" id="8C7AC3DB-1A68-C3A1-FB8B-87DEB04BEC08">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:07:22 UTC</createdTime>
+<generatorID>2A5DD3F8-AE12-8768-69DF-16FE56FC4AFE</generatorID>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<engineerTo>
+<item key="71A96B11-C9BF-BB37-2CFC-337D9A7F53A5" value="true"/>
+</engineerTo>
+<sourcePk>802F5737-EE71-24FE-2E55-0841EE963BD4</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>600064EE-A1B8-BDA0-373A-8C23C7DA550A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>13E29DB9-230F-B4D9-5FA4-5BFF52C016D9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

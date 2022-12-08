@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="22502637-B058-6D9C-31DC-14AEC04F63D3" containerWithKeyObject="F40CA89F-E40D-596E-68A7-210882FB4D85" localFKIndex="36E56FEE-2951-3AA0-10A5-BC5589DE70A4" name="NUMERO_CURVA_CIRCUITO_FK">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>UBD2359</sourceObjSchema>
+<sourceObjName>NUMERO_CURVA_CIRCUITO_FK</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:49:01 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<referredTableLongName>UBD2359.CIRCUITO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F2262626-9A46-7676-B273-871541B3AA41</referredTableID>
+<keyObject>EB6D2302-2D1E-3E74-7ABA-37A1B18FC8D8</keyObject>
+<referredKeyID>EB6D2302-2D1E-3E74-7ABA-37A1B18FC8D8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>FECHA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

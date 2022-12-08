@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="OFICIALES_EQUIPO_FK" directorySegmentName="seg_0" id="69786DA5-AC25-C4A6-113F-462802BE1950">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:07:22 UTC</createdTime>
+<generatorID>1FAC32A4-10FF-52FD-2032-E39CC7188943</generatorID>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<engineerTo>
+<item key="71A96B11-C9BF-BB37-2CFC-337D9A7F53A5" value="true"/>
+</engineerTo>
+<sourcePk>CDDE8E04-C905-4F9A-F41C-1C816B93ADCA</sourcePk>
+<dominantRole>A3340B41-F90F-2AB2-FAC6-B6248DC02E38</dominantRole>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A3340B41-F90F-2AB2-FAC6-B6248DC02E38</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>185242C8-DAAE-9868-3BF2-F5B720C32482</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

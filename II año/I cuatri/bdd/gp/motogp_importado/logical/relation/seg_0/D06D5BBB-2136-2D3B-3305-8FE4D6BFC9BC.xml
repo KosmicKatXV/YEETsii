@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ASISTENCIA_ACTO_PUBLICO_FK" directorySegmentName="seg_0" id="D06D5BBB-2136-2D3B-3305-8FE4D6BFC9BC">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:07:22 UTC</createdTime>
+<generatorID>2728CA22-3AD4-1B0C-0530-CB135EE2840D</generatorID>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<engineerTo>
+<item key="71A96B11-C9BF-BB37-2CFC-337D9A7F53A5" value="true"/>
+</engineerTo>
+<sourcePk>ED342631-1B2B-6634-0FA6-7AB3D5AB2522</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0D6DBE45-23C9-276F-8026-B9C90C2F47A5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F89DDAEF-33EE-93F4-D5AF-8CA740FD4A7E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StorageDesignOraclev12cR2 class="oracle.dbtools.crest.model.design.storage.oracle.v12cr2.StorageDesignOraclev12cR2" name="Oracle Database 12cR2" id="1DED6F9A-6741-53F3-EEE6-09CCDE198370" siteID="79C73AAF-E1A7-E669-7DF0-025EE81A2AFC" siteName="Oracle Database 12cR2" siteType="14">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:37 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+</StorageDesignOraclev12cR2>

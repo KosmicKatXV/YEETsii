@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A0C9C9D2-4DF1-C36E-C4EC-C8C0AB0832EE" name="MIEMBROS EQUIPO">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:07:22 UTC</createdTime>
+<generatorID>E36DEDD9-F368-E98A-55A9-4F1F9CF4F00D</generatorID>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<engineerTo>
+<item key="71A96B11-C9BF-BB37-2CFC-337D9A7F53A5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PASAPORTE" id="FEE7791E-4193-10D3-8695-E8DF3FB36FAB">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:07:22 UTC</createdTime>
+<generatorID>50EB5C8A-4978-2B1E-496A-E9BFEB58FCE4</generatorID>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<engineerTo>
+<item key="71A96B11-C9BF-BB37-2CFC-337D9A7F53A5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NACIONALIDAD" id="1766565E-2866-B8E2-3070-013B989C9E8B">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:07:22 UTC</createdTime>
+<generatorID>D81B79C3-8341-240E-4147-A3CF2A3CEEB3</generatorID>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<engineerTo>
+<item key="71A96B11-C9BF-BB37-2CFC-337D9A7F53A5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="777AC895-384E-0A24-4DF5-DB3D5E87DA3F">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:07:22 UTC</createdTime>
+<generatorID>A6607DB9-81E3-BB84-75C3-58DFA25ADEF0</generatorID>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<engineerTo>
+<item key="71A96B11-C9BF-BB37-2CFC-337D9A7F53A5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA NACIMIENTO" id="8E481652-D5F5-7A1B-3E06-4D9DD582DE15">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:07:22 UTC</createdTime>
+<generatorID>FBB55788-0989-06BA-ECC9-68ABC15866F6</generatorID>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<engineerTo>
+<item key="71A96B11-C9BF-BB37-2CFC-337D9A7F53A5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EQUIPO ID1" id="DE286DEE-1607-4941-2FD1-464EE0FF448C">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:07:22 UTC</createdTime>
+<generatorID>6445D7E5-537D-3D39-0F42-67A6419CB393</generatorID>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<engineerTo>
+<item key="71A96B11-C9BF-BB37-2CFC-337D9A7F53A5" value="true"/>
+</engineerTo>
+<referedAttribute>837A7B87-AE93-E23D-D94A-5914206DA40B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EQUIPO ID" id="B109F4AF-D1D7-BF7B-F349-4F82D255806C">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:07:22 UTC</createdTime>
+<generatorID>DA493A41-F4FF-6753-4A42-93EB6E52A261</generatorID>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<engineerTo>
+<item key="71A96B11-C9BF-BB37-2CFC-337D9A7F53A5" value="true"/>
+</engineerTo>
+<referedAttribute>837A7B87-AE93-E23D-D94A-5914206DA40B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ED83158D-E711-D0F8-2C6A-03D540D1DA79" name="MIEMBROS EQUIPO PK">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:07:22 UTC</createdTime>
+<generatorID>2AF1C5DD-7688-F345-673F-4537E3E92D3D</generatorID>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<engineerTo>
+<item key="71A96B11-C9BF-BB37-2CFC-337D9A7F53A5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FEE7791E-4193-10D3-8695-E8DF3FB36FAB</attributeRef>
+<attributeRef>1766565E-2866-B8E2-3070-013B989C9E8B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

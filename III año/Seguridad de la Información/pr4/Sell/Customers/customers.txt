@@ -1,0 +1,23 @@
+ Direcciones
+ En este menu tenemos un gestor de bases de datos en el que podemos gestionar la siguiente información sobre las direcciones
+ID
+Nombre
+Apellido
+Direccion
+Codigo Postal
+Ciudad
+Pais
+
+Clientes
+ En este menu tenemos un gestor de bases de datos en el que podemos gestionar la siguiente información sobre los clientes
+ID
+Título
+Nombre
+Apellido
+Correo
+Ventas
+Habilitado
+Correos
+Ofertas
+Fecha de registro
+Ultiam visita

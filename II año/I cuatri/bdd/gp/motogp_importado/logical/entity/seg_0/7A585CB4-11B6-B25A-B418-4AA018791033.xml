@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7A585CB4-11B6-B25A-B418-4AA018791033" name="NUMERO CURVA">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:07:22 UTC</createdTime>
+<generatorID>2DCEC77C-1B73-A379-9D6F-F267BC108AA6</generatorID>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<engineerTo>
+<item key="71A96B11-C9BF-BB37-2CFC-337D9A7F53A5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NUMERO" id="273B2C4B-EDD0-AF8C-150A-4633FC10A4E2">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:07:22 UTC</createdTime>
+<generatorID>9F29585F-51D3-BAD3-6944-00EBC20644B8</generatorID>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<engineerTo>
+<item key="71A96B11-C9BF-BB37-2CFC-337D9A7F53A5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ISLEFT" id="8338960C-D814-644F-2F21-6E600B41ED9E">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:07:22 UTC</createdTime>
+<generatorID>A7AE3C46-DF76-B076-3AC8-97D941CE7489</generatorID>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<engineerTo>
+<item key="71A96B11-C9BF-BB37-2CFC-337D9A7F53A5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="68A53C9D-12B0-8DA9-42C1-DF20212BC62B">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:07:22 UTC</createdTime>
+<generatorID>4B7DD4EE-5D2C-E6BA-E737-A062053CC7E1</generatorID>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<engineerTo>
+<item key="71A96B11-C9BF-BB37-2CFC-337D9A7F53A5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CIRCUITO FECHA" id="F4CDD530-2975-8E91-A679-CAFCA79D9FAD">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:07:22 UTC</createdTime>
+<generatorID>AB090132-31BF-5667-A871-A6C813B8CDC3</generatorID>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<engineerTo>
+<item key="71A96B11-C9BF-BB37-2CFC-337D9A7F53A5" value="true"/>
+</engineerTo>
+<referedAttribute>F7B4FF1B-85D2-5B2A-48AD-A3C20BCF098B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D8C22296-6AD2-C897-2E6B-300AD4F3E5E7" name="NUMERO CURVA PK">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:07:22 UTC</createdTime>
+<generatorID>77F0975F-F026-0B32-4F76-E0B407DA1843</generatorID>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<engineerTo>
+<item key="71A96B11-C9BF-BB37-2CFC-337D9A7F53A5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>273B2C4B-EDD0-AF8C-150A-4633FC10A4E2</attributeRef>
+<attributeRef>F4CDD530-2975-8E91-A679-CAFCA79D9FAD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

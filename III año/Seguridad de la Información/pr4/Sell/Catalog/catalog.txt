@@ -1,0 +1,29 @@
+Attributes
+Desde aqui se pueden gestionar los atributos de los productos que están a la venta además de la posición que estos tienen en la página de cada producto
+
+Attributes 2
+mira luego lo hago q no se q poner
+
+Brands
+Aquí podemos gestionar las empresas que proveen de productos esta tienda y que por lo tanto están vinculados a estos productos. Además tenemos una ventana debajo que permite observar las direcciones de cada empresa.
+
+Brands 2
+Aquí tenemos una vista general de la base de datos que contiene información de cada proveedor.
+
+Categories 2
+Aquí tenemos una vista general de la base de datos que contiene información de cada categoría.
+
+discounts
+Aquí tenemos una vista general de la base de datos que contiene información de cada regla de carrito que se puede aplicar.
+
+Discounts 2
+Aquí tenemos una vista general de la base de datos que contiene información de cada regla de los precios que se puede aplicar a cada catálogo.
+
+Files
+Aquí se nos ofrece un servicio de gestor de archivos por el cual podremos compartir archivos con los clientes para facilitar su uso de lo servicios o productos ofertados.
+
+Products
+Aquí tenemos una vista general de la base de datos que contiene información de cada producto.
+
+Stock
+Aquí tenemos una vista general de la base de datos que contiene información del stock de cada producto.

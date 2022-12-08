@@ -1,0 +1,162 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2B8E23C9-48C8-7ED6-3C72-202468697412" schemaObject="6A83CB41-0EA2-8FCC-9A78-329A702654A1" name="TRAMO">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>UBD2359</sourceObjSchema>
+<sourceObjName>TRAMO</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:58 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NOMBRE_TRAMO" id="F331C0E8-2EED-34F1-76AA-54AE923727EE">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>TRAMO</sourceObjSchema>
+<sourceObjName>NOMBRE_TRAMO</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:59 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LONGITUD_METROS" id="EF3D3F99-411A-44A2-8B7F-88BA910846F2">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>TRAMO</sourceObjSchema>
+<sourceObjName>LONGITUD_METROS</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:59 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESNIVEL" id="A79D5ACE-1A9D-3FAD-BA96-B9440A5FF698">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>TRAMO</sourceObjSchema>
+<sourceObjName>DESNIVEL</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:59 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ASFALTO" id="EFA000DE-8493-9640-2D29-68E2AD5A5A12">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>TRAMO</sourceObjSchema>
+<sourceObjName>ASFALTO</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:59 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VELOCIDAD_MEDIA_ANTERIOR" id="4CFAAC50-8B5E-225A-7555-849EDBC02525">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>TRAMO</sourceObjSchema>
+<sourceObjName>VELOCIDAD_MEDIA_ANTERIOR</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:59 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,4,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VELOCIDAD_MAX_ANTERIOR" id="C568B9F9-A1C3-A45A-74A3-8DFD167C2AD3">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>TRAMO</sourceObjSchema>
+<sourceObjName>VELOCIDAD_MAX_ANTERIOR</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:59 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,4,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CIRCUITO_NOMBRE" id="62876E14-5D6E-4E1E-E581-1B15C0F3834E">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>TRAMO</sourceObjSchema>
+<sourceObjName>CIRCUITO_NOMBRE</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:59 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7863E2D9-63A8-932F-C090-BFF33BDB65E2" referredColumn="A520FBB5-E92A-06BA-10A8-214466FB7640"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1222DDB6-57EE-A538-A320-3553CEFAB48F" name="TRAMO_PK">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>UBD2359</sourceObjSchema>
+<sourceObjName>TRAMO_PK</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:49:00 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F331C0E8-2EED-34F1-76AA-54AE923727EE"/>
+<colUsage columnID="62876E14-5D6E-4E1E-E581-1B15C0F3834E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BD4C10F5-9A04-E7A3-600B-150B585FCD25" schemaObject="6A83CB41-0EA2-8FCC-9A78-329A702654A1" name="TRAMO_PK">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>UBD2359</sourceObjSchema>
+<sourceObjName>TRAMO_PK</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:59 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F331C0E8-2EED-34F1-76AA-54AE923727EE"/>
+<colUsage columnID="62876E14-5D6E-4E1E-E581-1B15C0F3834E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5A2FBF0C-9C90-302E-CC7F-6240E068DBBB" name="TRAMO_CIRCUITO_FK">
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:49:01 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62876E14-5D6E-4E1E-E581-1B15C0F3834E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

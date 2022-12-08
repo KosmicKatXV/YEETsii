@@ -1,0 +1,215 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="76B907ED-7BDE-E21A-7D99-1278327E5A1B" schemaObject="6A83CB41-0EA2-8FCC-9A78-329A702654A1" name="CARRERA">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>UBD2359</sourceObjSchema>
+<sourceObjName>CARRERA</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:58 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PUESTO_CLASIFICACION" id="F0737C6D-61E1-688A-DF34-AE77FD33C6D5">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>CARRERA</sourceObjSchema>
+<sourceObjName>PUESTO_CLASIFICACION</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:59 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MODELO_MOTO" id="F5103FF6-C809-7EB9-7132-F7FEAE82DB5D">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>CARRERA</sourceObjSchema>
+<sourceObjName>MODELO_MOTO</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:59 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NEUMATICO_DELANTERO" id="7D922150-1C78-839F-996D-AA2AC28A082E">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>CARRERA</sourceObjSchema>
+<sourceObjName>NEUMATICO_DELANTERO</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:59 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NEUMATICO_TRASERO" id="6D5DFFAA-356A-E5AF-33FB-19DC1E4EBACA">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>CARRERA</sourceObjSchema>
+<sourceObjName>NEUMATICO_TRASERO</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:59 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAIDAS" id="70F07AEC-604E-2D02-F107-E3EC7203DD5A">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>CARRERA</sourceObjSchema>
+<sourceObjName>CAIDAS</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:59 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIEMPO" id="F6467C28-E3E6-0DF7-3B2D-C3091BA19DA8">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>CARRERA</sourceObjSchema>
+<sourceObjName>TIEMPO</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:59 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,6,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CIRCUITO_NOMBRE" id="183C447B-09E0-C041-F364-AFFFDA3B17B8">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>CARRERA</sourceObjSchema>
+<sourceObjName>CIRCUITO_NOMBRE</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:59 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6C6BEFDE-BFE8-4ACB-6474-5AC46CC71373" referredColumn="A520FBB5-E92A-06BA-10A8-214466FB7640"/>
+</associations>
+</Column>
+<Column name="PILOTO_DORSAL" id="8518C773-483F-8F25-0BAB-1C1F524AD4AD">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>CARRERA</sourceObjSchema>
+<sourceObjName>PILOTO_DORSAL</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:59 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EC8256B2-5929-8C5F-E500-FCE9EF5E2D06" referredColumn="34C746ED-8BEE-544F-558A-D75993E80CC7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6CC093DD-57A8-B4C6-EC3E-02782BAAA004" name="CARRERA_PK">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>UBD2359</sourceObjSchema>
+<sourceObjName>CARRERA_PK</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:49:00 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0737C6D-61E1-688A-DF34-AE77FD33C6D5"/>
+<colUsage columnID="183C447B-09E0-C041-F364-AFFFDA3B17B8"/>
+<colUsage columnID="8518C773-483F-8F25-0BAB-1C1F524AD4AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DC05CE28-1EA4-CEF9-9416-F53BABE4D1B1" schemaObject="6A83CB41-0EA2-8FCC-9A78-329A702654A1" name="CARRERA__IDX">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>UBD2359</sourceObjSchema>
+<sourceObjName>CARRERA__IDX</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:59 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="183C447B-09E0-C041-F364-AFFFDA3B17B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5FDE416B-3149-687C-C5C4-E62BA339091E" schemaObject="6A83CB41-0EA2-8FCC-9A78-329A702654A1" name="CARRERA__IDXV1">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>UBD2359</sourceObjSchema>
+<sourceObjName>CARRERA__IDXV1</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:59 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8518C773-483F-8F25-0BAB-1C1F524AD4AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="22A483E8-8A79-B51B-CFE7-BF5FDC084EFC" schemaObject="6A83CB41-0EA2-8FCC-9A78-329A702654A1" name="CARRERA_PK">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>UBD2359</sourceObjSchema>
+<sourceObjName>CARRERA_PK</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:59 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0737C6D-61E1-688A-DF34-AE77FD33C6D5"/>
+<colUsage columnID="183C447B-09E0-C041-F364-AFFFDA3B17B8"/>
+<colUsage columnID="8518C773-483F-8F25-0BAB-1C1F524AD4AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="93012722-2D71-896E-6A27-6FD52261BAB8" name="CARRERA_CIRCUITO_FK">
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:49:01 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="183C447B-09E0-C041-F364-AFFFDA3B17B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="286F44E7-2F5E-C6E3-4302-3816056E571D" name="CARRERA_PILOTO_FK">
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:49:01 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8518C773-483F-8F25-0BAB-1C1F524AD4AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

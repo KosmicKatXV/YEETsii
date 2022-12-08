@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="NUMERO_CURVA_CIRCUITO_FK" directorySegmentName="seg_0" id="AB090132-31BF-5667-A871-A6C813B8CDC3">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:07:22 UTC</createdTime>
+<generatorID>0EF23A7C-109F-8D68-6D0E-B6E7B83C6FAF</generatorID>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<engineerTo>
+<item key="71A96B11-C9BF-BB37-2CFC-337D9A7F53A5" value="true"/>
+</engineerTo>
+<sourcePk>CC8122D1-A9D0-B0E8-C42F-1E939F19BCDE</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5F142D0A-4A6D-03E3-5EA4-AB20D3B17D51</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7A585CB4-11B6-B25A-B418-4AA018791033</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EXPERIENCIA_PILOTO_FKV1" directorySegmentName="seg_0" id="1F8A3232-7A86-1F12-40DC-0177803710B2">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:07:22 UTC</createdTime>
+<generatorID>818CAAB8-9063-FF59-D098-03F2DA499167</generatorID>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<engineerTo>
+<item key="71A96B11-C9BF-BB37-2CFC-337D9A7F53A5" value="true"/>
+</engineerTo>
+<sourcePk>802F5737-EE71-24FE-2E55-0841EE963BD4</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>600064EE-A1B8-BDA0-373A-8C23C7DA550A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>78BB1570-343E-4365-722B-28A14319F8F5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

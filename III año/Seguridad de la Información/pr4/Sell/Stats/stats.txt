@@ -1,0 +1,27 @@
+Stats
+stats 2
+presenta en detalle estudios de las distintas estadísticas
+disponibles en la barra lateral izquierda.
+ - Stats Dashboard
+Ofrece una visión general de los principales números recogidos por el sistema de
+estadísticas de PrestaShop desde que se lanzó nuestra tienda online.
+- Carro: es el carro de compra de un visitante, que tiene sólo productos
+- Carro completo: es un carro con productos, una dirección de envío y un transportista.
+- Available quantities
+Esta sección le ofrece una visión general del valor de nuestras existencias actuales.
+- Best Customers
+Esta sección muestra los mejores clientes de nuestra tienda.
+- Best Vouchers
+Esta sección muestra los cupones y vales creados por nuestra empresa.
+- Best Selling Products
+Esta sección muestra los productos más rentables.
+- Catalog Evaluation
+Evaluación del catálogo. Esta sección ofrece una visión general del funcionamiento de su
+catálogo. Puede averiguar si cada producto está activo, o si su descripción está
+correctamente introducida en todos los idiomas activos de su tienda. También puede ver si
+todos sus productos tienen suficientes imágenes, su rendimiento de ventas y el estado
+actual de las existencias. La puntuación global de cada producto se muestra mediante un
+icono de color. Puede definir sus criterios rellenando la tabla de la parte superior de la
+página y guardando sus ajustes.- “Catalog Statistics” (Estadísticas del catálogo)
+Esta sección contiene información sobre los productos vendidos en nuestra tienda online, y
+catálogo en general.

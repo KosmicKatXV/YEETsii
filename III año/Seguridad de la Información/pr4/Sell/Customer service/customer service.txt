@@ -1,0 +1,30 @@
+ Customer service
+ Este menú permite gestionar todas las peticiones que lleguen desde el servicio de atención al cliente. En el primer menu encontramos unas estadísticas a modo de resumen: Discusiones abiertas, tiempo de respuesta promedio y número de mensajes por hilo en los últimos 30 días.
+ Debajo tenemos varios menús más pequeños, el primero nos avisa de fallos en la propia página, el segundo preguntas sobre productos, el tercero es meramente informativo y el último es un resumén estadístico algo más detallado,.
+ Debajo de estos menus encontramos un gestor de base de datos que nos va a permitir observar las peticiones recibidas desde el servicio al cliente con la siguiente información:
+ ID
+Cliente
+Email
+Tipo
+Idioma
+Estado
+Empleado que ha respondido
+Mensaje
+Privado
+Ultimo mensaje
+
+Customer Service 2
+Customer Service 3
+Más adelante encontramos una opción que permite la subida de archivos con las peticiones al servicio además de un menú de configuración avanzada para enlazar el servicio con un servidor externo.
+
+Merchandise returns
+En este menú encontramos un gestor de bases de datos que nos muestra la información sobre cada devolución:
+ID
+ID pedido
+Estado
+Fecha de creación
+
+Además encontramos otro menú que nos permitirá gestionar las características de este servicio de devolución.
+
+Order messages
+Este es un buzón de entrada de todas las peticiones que llegan al servicio de atención al cliente.

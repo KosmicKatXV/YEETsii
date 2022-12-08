@@ -1,0 +1,270 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F2262626-9A46-7676-B273-871541B3AA41" schemaObject="6A83CB41-0EA2-8FCC-9A78-329A702654A1" name="CIRCUITO">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>UBD2359</sourceObjSchema>
+<sourceObjName>CIRCUITO</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:58 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NOMBRE" id="A520FBB5-E92A-06BA-10A8-214466FB7640">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>CIRCUITO</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:59 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA" id="538EECBA-BC95-19E8-9F9B-073D34EA6B49">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>CIRCUITO</sourceObjSchema>
+<sourceObjName>FECHA</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:59 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAIS" id="8C39A7DE-E0EB-8F6E-6812-2E675834CAD8">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>CIRCUITO</sourceObjSchema>
+<sourceObjName>PAIS</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:59 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CIUDAD_CERCANA" id="0020DA6E-07D5-9F57-953B-677D7221DB74">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>CIRCUITO</sourceObjSchema>
+<sourceObjName>CIUDAD_CERCANA</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:59 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AÑO_INAGURACION" id="01D320D0-7DF9-1E57-1C50-E0435FA4920C">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>CIRCUITO</sourceObjSchema>
+<sourceObjName>AÑO_INAGURACION</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:59 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ANCHO_PISTA" id="F64CE149-D990-5ED6-B657-9C17CC2DB5FF">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>CIRCUITO</sourceObjSchema>
+<sourceObjName>ANCHO_PISTA</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:59 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STARTLEFT" id="AEE7816A-F83D-0185-91DC-FE35F80B171A">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>CIRCUITO</sourceObjSchema>
+<sourceObjName>STARTLEFT</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:59 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ISCLOCKWISE" id="D809DAE1-7E95-1594-33F2-78D80DD59051">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>CIRCUITO</sourceObjSchema>
+<sourceObjName>ISCLOCKWISE</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:59 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TAMAÑO_TOTAL_METROS" id="DBE1475D-C848-AF04-85DE-F33728D83A77">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>CIRCUITO</sourceObjSchema>
+<sourceObjName>TAMAÑO_TOTAL_METROS</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:59 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RECTA_LARGA_METROS" id="1B4761A6-843F-1AF0-8705-5B714A7EC138">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>CIRCUITO</sourceObjSchema>
+<sourceObjName>RECTA_LARGA_METROS</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:59 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MAPA" id="BA81A4DE-E0A8-EA6D-D13B-5CEACB324B84">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>CIRCUITO</sourceObjSchema>
+<sourceObjName>MAPA</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:59 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_CARRERA" id="9F6520EC-F207-5BAB-3670-B2E4FB1F88E7">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>CIRCUITO</sourceObjSchema>
+<sourceObjName>FECHA_CARRERA</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:59 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMERO_VUELTAS" id="B105AB5B-3F4F-97C5-F844-581B5C852AA4">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>CIRCUITO</sourceObjSchema>
+<sourceObjName>NUMERO_VUELTAS</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:59 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ISWET" id="DAF833D5-EAD1-ADE7-561D-A3D7E94FCDD9">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>CIRCUITO</sourceObjSchema>
+<sourceObjName>ISWET</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:59 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E31BE866-45A3-99F8-8D26-E47247CAD646" name="CIRCUITO_PK">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>UBD2359</sourceObjSchema>
+<sourceObjName>CIRCUITO_PK</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:49:00 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A520FBB5-E92A-06BA-10A8-214466FB7640"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EB6D2302-2D1E-3E74-7ABA-37A1B18FC8D8" name="CIRCUITO_FECHA_UN">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>UBD2359</sourceObjSchema>
+<sourceObjName>CIRCUITO_FECHA_UN</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:49:00 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="538EECBA-BC95-19E8-9F9B-073D34EA6B49"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F110FBF1-8315-FC44-C518-5A4B0C3E9C8D" schemaObject="6A83CB41-0EA2-8FCC-9A78-329A702654A1" name="CIRCUITO_FECHA_UN">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>UBD2359</sourceObjSchema>
+<sourceObjName>CIRCUITO_FECHA_UN</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:59 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="538EECBA-BC95-19E8-9F9B-073D34EA6B49"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6CA4083C-2852-E97B-A2AD-1C1BF6175530" schemaObject="6A83CB41-0EA2-8FCC-9A78-329A702654A1" name="CIRCUITO_PK">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>UBD2359</sourceObjSchema>
+<sourceObjName>CIRCUITO_PK</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:59 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A520FBB5-E92A-06BA-10A8-214466FB7640"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

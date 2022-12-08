@@ -1,0 +1,170 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F3B043D7-26AD-E243-1E78-D07E5C730956" schemaObject="6A83CB41-0EA2-8FCC-9A78-329A702654A1" name="MIEMBROS_EQUIPO">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>UBD2359</sourceObjSchema>
+<sourceObjName>MIEMBROS_EQUIPO</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:58 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PASAPORTE" id="2699D314-C95E-2FA5-B465-1B8BE3025816">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>MIEMBROS_EQUIPO</sourceObjSchema>
+<sourceObjName>PASAPORTE</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:59 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NACIONALIDAD" id="CB9BF786-2B00-B0D6-D087-6B2DD668DF7A">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>MIEMBROS_EQUIPO</sourceObjSchema>
+<sourceObjName>NACIONALIDAD</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:59 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="935F6865-4129-2C0A-7597-2A3A3554081E">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>MIEMBROS_EQUIPO</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:59 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_NACIMIENTO" id="A96526C7-2E17-EB33-8443-ADFEBDA3EA1D">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>MIEMBROS_EQUIPO</sourceObjSchema>
+<sourceObjName>FECHA_NACIMIENTO</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:59 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EQUIPO_ID1" id="F8973F3E-FB60-F542-5546-E72E75345431">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>MIEMBROS_EQUIPO</sourceObjSchema>
+<sourceObjName>EQUIPO_ID1</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:59 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="80E2D873-4ACA-6261-19E8-5BDED493E098" referredColumn="0F17FF87-AE33-5978-65C9-0BACD529BE09"/>
+</associations>
+</Column>
+<Column name="EQUIPO_ID" id="2426173E-FCB2-62FD-4378-D427E82AA6D7">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>MIEMBROS_EQUIPO</sourceObjSchema>
+<sourceObjName>EQUIPO_ID</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:59 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AE8E3AEB-2577-C31C-AB44-CA82380DE3D0" referredColumn="0F17FF87-AE33-5978-65C9-0BACD529BE09"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="998D37E2-E04F-D13E-596E-8BEC92461EDE" name="MIEMBROS_EQUIPO_PK">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>UBD2359</sourceObjSchema>
+<sourceObjName>MIEMBROS_EQUIPO_PK</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:49:00 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2699D314-C95E-2FA5-B465-1B8BE3025816"/>
+<colUsage columnID="CB9BF786-2B00-B0D6-D087-6B2DD668DF7A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="57B889F3-0EA3-75B7-E550-0C8822508B3E" schemaObject="6A83CB41-0EA2-8FCC-9A78-329A702654A1" name="MIEMBROS_EQUIPO__IDX">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>UBD2359</sourceObjSchema>
+<sourceObjName>MIEMBROS_EQUIPO__IDX</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:59 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2426173E-FCB2-62FD-4378-D427E82AA6D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="82BB48EA-3DE1-0EB3-9169-3E923FE4404B" schemaObject="6A83CB41-0EA2-8FCC-9A78-329A702654A1" name="MIEMBROS_EQUIPO_PK">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>UBD2359</sourceObjSchema>
+<sourceObjName>MIEMBROS_EQUIPO_PK</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:59 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2699D314-C95E-2FA5-B465-1B8BE3025816"/>
+<colUsage columnID="CB9BF786-2B00-B0D6-D087-6B2DD668DF7A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="84770A20-22D9-A4D9-A0B0-A84BA3C13ACA" name="MIEMBROS_EQUIPO_EQUIPO_FK">
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:49:01 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2426173E-FCB2-62FD-4378-D427E82AA6D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="45656EE6-9FB4-3F83-4512-DD16C17A796E" name="MIEMBROS_EQUIPO_EQUIPO_FKV2">
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:49:01 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8973F3E-FB60-F542-5546-E72E75345431"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

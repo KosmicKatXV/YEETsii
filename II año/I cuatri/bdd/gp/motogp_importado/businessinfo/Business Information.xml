@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="880955F6-EF80-4F6B-3A49-FB38F8F6999A">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:03:41 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

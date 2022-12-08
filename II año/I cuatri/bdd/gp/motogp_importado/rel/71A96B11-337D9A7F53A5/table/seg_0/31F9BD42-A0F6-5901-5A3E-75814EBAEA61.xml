@@ -1,0 +1,262 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="31F9BD42-A0F6-5901-5A3E-75814EBAEA61" schemaObject="07F8F6EC-F9F3-F6C8-A5D3-BAF140ABBBD3" name="CIRCUITO">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>UBD1420</sourceObjSchema>
+<sourceObjName>CIRCUITO</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NOMBRE" id="015C121B-D9B8-A99D-FCD4-28F5C3F58EC5">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>CIRCUITO</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA" id="B4434FD2-E19D-629E-F21D-82DD5CCD35FD">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>CIRCUITO</sourceObjSchema>
+<sourceObjName>FECHA</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAIS" id="F0338024-4D78-FF4C-AA26-4FD054DCFABC">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>CIRCUITO</sourceObjSchema>
+<sourceObjName>PAIS</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CIUDAD_PROX" id="9564A287-C930-963D-D9F9-E3D5A3A198AA">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>CIRCUITO</sourceObjSchema>
+<sourceObjName>CIUDAD_CERCANA</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ANYO_APERT" id="184F1E01-74A7-57FF-90FC-493B342E35D7">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>CIRCUITO</sourceObjSchema>
+<sourceObjName>AÑO_INAGURACION</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ANCHO" id="FFA24469-3954-66CF-B276-DEA3E58344DE">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>CIRCUITO</sourceObjSchema>
+<sourceObjName>ANCHO_PISTA</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STARTLEFT" id="5F19B3E8-2780-BC17-85EA-77B9B97C2FEB">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>CIRCUITO</sourceObjSchema>
+<sourceObjName>STARTLEFT</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ISCLOCKWISE" id="4304B12E-D4E1-1A59-DAAB-FB2D23C569EF">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>CIRCUITO</sourceObjSchema>
+<sourceObjName>ISCLOCKWISE</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TAM_METROS" id="4E5052DB-5229-AF5A-D162-781939A7D11B">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>CIRCUITO</sourceObjSchema>
+<sourceObjName>TAMAÑO_TOTAL_METROS</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RECTA_METROS" id="51EAE093-8542-2ED5-4D6D-82C233DD1B03">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>CIRCUITO</sourceObjSchema>
+<sourceObjName>RECTA_LARGA_METROS</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MAPA" id="E24C7C73-EF51-77DE-A39C-1651CC2DCEAB">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>CIRCUITO</sourceObjSchema>
+<sourceObjName>MAPA</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_CARRERA" id="597971B0-A6BB-D5D1-F830-0F50CE861A03">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>CIRCUITO</sourceObjSchema>
+<sourceObjName>FECHA_CARRERA</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NVUELTAS" id="68030194-9F8E-9206-B2F7-C516BA3D2189">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>CIRCUITO</sourceObjSchema>
+<sourceObjName>NUMERO_VUELTAS</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ISWET" id="F5462423-D8FD-E21B-43AF-C42096A38689">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>CIRCUITO</sourceObjSchema>
+<sourceObjName>ISWET</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="919B7969-7C6A-8EBB-2A6B-DF1F43DA9C00" name="CIRCUITO_PK">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>UBD1420</sourceObjSchema>
+<sourceObjName>CIRCUITO_PK</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:58 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="015C121B-D9B8-A99D-FCD4-28F5C3F58EC5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CF5A28EE-D44B-2760-ABF1-5D936D368644" name="CIRCUITO_FECHA_UN">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>UBD1420</sourceObjSchema>
+<sourceObjName>CIRCUITO_FECHA_UN</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:58 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4434FD2-E19D-629E-F21D-82DD5CCD35FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1A47BE26-D196-E7C2-4DD1-2E9F94F431B4" schemaObject="07F8F6EC-F9F3-F6C8-A5D3-BAF140ABBBD3" name="CIRCUITO_FECHA_UN">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>UBD1420</sourceObjSchema>
+<sourceObjName>CIRCUITO_FECHA_UN</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:57 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4434FD2-E19D-629E-F21D-82DD5CCD35FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F70A82B3-03CA-229A-5494-6A3F20647C2F" schemaObject="07F8F6EC-F9F3-F6C8-A5D3-BAF140ABBBD3" name="CIRCUITO_PK">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>UBD1420</sourceObjSchema>
+<sourceObjName>CIRCUITO_PK</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:57 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="015C121B-D9B8-A99D-FCD4-28F5C3F58EC5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

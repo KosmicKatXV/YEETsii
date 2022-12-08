@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AE8E3AEB-2577-C31C-AB44-CA82380DE3D0" containerWithKeyObject="F3B043D7-26AD-E243-1E78-D07E5C730956" localFKIndex="84770A20-22D9-A4D9-A0B0-A84BA3C13ACA" name="MIEMBROS_EQUIPO_EQUIPO_FK">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>UBD2359</sourceObjSchema>
+<sourceObjName>MIEMBROS_EQUIPO_EQUIPO_FK</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:49:01 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<referredTableLongName>UBD2359.EQUIPO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8AAE15EE-7B5D-F7FB-4A3D-685796EA4705</referredTableID>
+<keyObject>BDB133BA-0019-4AC1-B5CE-C9AB096FF582</keyObject>
+<referredKeyID>BDB133BA-0019-4AC1-B5CE-C9AB096FF582</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

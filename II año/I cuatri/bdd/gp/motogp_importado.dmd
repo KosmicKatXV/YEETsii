@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="motogp_importado" id="EF5DFCE3-E054-EBC4-A1B7-77767F8B9785" version="3.5">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:03:41 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>EF5DFCE3-E054-EBC4-A1B7-77767F8B9785</designId>
+</OSDM_Design>

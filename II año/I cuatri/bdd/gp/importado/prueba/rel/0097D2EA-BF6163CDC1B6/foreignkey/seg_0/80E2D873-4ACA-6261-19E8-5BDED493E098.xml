@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="80E2D873-4ACA-6261-19E8-5BDED493E098" containerWithKeyObject="F3B043D7-26AD-E243-1E78-D07E5C730956" localFKIndex="45656EE6-9FB4-3F83-4512-DD16C17A796E" name="MIEMBROS_EQUIPO_EQUIPO_FKV2">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>UBD2359</sourceObjSchema>
+<sourceObjName>MIEMBROS_EQUIPO_EQUIPO_FKV2</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:49:01 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<referredTableLongName>UBD2359.EQUIPO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8AAE15EE-7B5D-F7FB-4A3D-685796EA4705</referredTableID>
+<keyObject>BDB133BA-0019-4AC1-B5CE-C9AB096FF582</keyObject>
+<referredKeyID>BDB133BA-0019-4AC1-B5CE-C9AB096FF582</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

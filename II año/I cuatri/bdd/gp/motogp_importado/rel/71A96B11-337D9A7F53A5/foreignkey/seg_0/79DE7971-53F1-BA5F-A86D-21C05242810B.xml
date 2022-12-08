@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="79DE7971-53F1-BA5F-A86D-21C05242810B" containerWithKeyObject="4E9A14E6-ACE6-D02E-BB83-56307E613480" localFKIndex="5AB48A78-59AB-6116-EB18-43336CB00457" name="EXPERIENCIA_PILOTO_FK">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>UBD1420</sourceObjSchema>
+<sourceObjName>EXPERIENCIA_PILOTO_FK</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:59 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<referredTableLongName>UBD1420.PILOTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>695DEF47-338D-0AE4-8919-D24CC70619BE</referredTableID>
+<keyObject>5C7B4949-10F9-043A-D7F3-F925AE49DB06</keyObject>
+<referredKeyID>5C7B4949-10F9-043A-D7F3-F925AE49DB06</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>DORSAL</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

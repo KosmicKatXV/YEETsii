@@ -1,0 +1,6 @@
+ Module catalog
+ Desde este menu se pueden adquirir aquellos módulos necesarios para el buen rendimiento de la tienda.
+ 
+ Module manager
+ Desde este menú se puede gestionar las opciones de cada módulo ya adquirido o deshabilitarlo.
+

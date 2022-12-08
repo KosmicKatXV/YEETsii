@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="UBD2359" directorySegmentName="seg_0" id="C32DF9C5-BDF9-9465-5F86-771DAC818659">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjName>UBD2359</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:57 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<schemaObject>6A83CB41-0EA2-8FCC-9A78-329A702654A1</schemaObject>
+</UserOraclev10g>

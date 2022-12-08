@@ -1,0 +1,160 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3AA57C18-6218-7CEF-8598-6B03932197DD" schemaObject="07F8F6EC-F9F3-F6C8-A5D3-BAF140ABBBD3" name="TRAMO">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>UBD1420</sourceObjSchema>
+<sourceObjName>TRAMO</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NOMBRE" id="7B67B796-5BDE-F07E-00AD-CF5491ABAD3A">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>TRAMO</sourceObjSchema>
+<sourceObjName>NOMBRE_TRAMO</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LONGITUD" id="FFE59DDC-D617-0CDF-6EF9-27E9799FB8C5">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>TRAMO</sourceObjSchema>
+<sourceObjName>LONGITUD_METROS</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESNIVEL" id="713DBDF8-3502-17FA-A940-5F2F7200DE20">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>TRAMO</sourceObjSchema>
+<sourceObjName>DESNIVEL</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ASFALTO" id="694F8A81-40A6-5DEF-4C89-BFA2768ABE95">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>TRAMO</sourceObjSchema>
+<sourceObjName>ASFALTO</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VMEDIA_ANT" id="E60F44BD-9710-26B0-60CE-3242404E321C">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>TRAMO</sourceObjSchema>
+<sourceObjName>VELOCIDAD_MEDIA_ANTERIOR</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,4,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VMAX_ANT" id="82EAA891-4E37-99DC-8450-7D425801A064">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>TRAMO</sourceObjSchema>
+<sourceObjName>VELOCIDAD_MAX_ANTERIOR</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,4,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CIRCUITO" id="4986CB3E-BAC2-2849-7F4E-EBF0CA01FCA2">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>TRAMO</sourceObjSchema>
+<sourceObjName>CIRCUITO_NOMBRE</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="219A0F1F-005B-051B-4915-DFAD7308FB7D" referredColumn="015C121B-D9B8-A99D-FCD4-28F5C3F58EC5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1EADBCCB-B59E-1314-0C25-074C5C47A0D7" name="TRAMO_PK">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>UBD1420</sourceObjSchema>
+<sourceObjName>TRAMO_PK</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:58 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B67B796-5BDE-F07E-00AD-CF5491ABAD3A"/>
+<colUsage columnID="4986CB3E-BAC2-2849-7F4E-EBF0CA01FCA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A1043CBF-980A-FA1F-5CB4-0392A3B6D68C" schemaObject="07F8F6EC-F9F3-F6C8-A5D3-BAF140ABBBD3" name="TRAMO_PK">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>UBD1420</sourceObjSchema>
+<sourceObjName>TRAMO_PK</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:57 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B67B796-5BDE-F07E-00AD-CF5491ABAD3A"/>
+<colUsage columnID="4986CB3E-BAC2-2849-7F4E-EBF0CA01FCA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="86E4CE7C-0F2A-4C6E-A15A-C40DC830E82B" name="TRAMO_CIRCUITO_FK">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:59 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4986CB3E-BAC2-2849-7F4E-EBF0CA01FCA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

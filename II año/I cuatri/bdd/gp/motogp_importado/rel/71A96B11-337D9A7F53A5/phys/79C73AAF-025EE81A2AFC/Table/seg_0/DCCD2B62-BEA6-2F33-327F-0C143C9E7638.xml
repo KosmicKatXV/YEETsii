@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="EQUIPO" directorySegmentName="seg_0" id="DCCD2B62-BEA6-2F33-327F-0C143C9E7638">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<schemaObject>07F8F6EC-F9F3-F6C8-A5D3-BAF140ABBBD3</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>41B93E74-C58B-5531-2ACD-D05E19649E2D</segment>
+<tableSpace>AD453D2A-0CD5-FC60-F319-15ECE8EF6937</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="LOGO" id="0850808F-7818-2656-67A3-FFF8E9CB7EEE">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="1361BEE2-8B8F-770B-3527-566784FDEA98">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESCRIPCION" id="322D7247-8E60-7378-1C19-7A11E88A1214">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MIEMBROS_EQUIPO_NACIONALIDAD" id="36CABD92-334F-58D5-733D-E584F9A3EA59">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FOTO_OFICIAL" id="60553A29-A54F-83FE-6C42-6CF744CF2955">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="WEB" id="61D88187-8093-30AC-A559-DA2C06491914">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MODELO_MOTO" id="942804F8-3C89-AD04-7498-91708B95831A">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DIRECCION_EQUIPO" id="D7FB4FFD-7405-64CB-C5E3-278A6AE1C245">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MIEMBROS_EQUIPO_PASAPORTE" id="DC3035F0-3F28-45CF-EA44-4DE42FBB2352">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBRE" id="E6DB0BD3-D883-FD7E-7B20-B641F4B91D8E">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="EQUIPO__IDX" id="2CC1884D-9EF9-7C72-C57E-D2DE42B4E36B">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:57 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<schemaObject>07F8F6EC-F9F3-F6C8-A5D3-BAF140ABBBD3</schemaObject>
+<segment>D7B7A527-1516-CF72-F0FA-D2F978D10868</segment>
+<tableSpace>AD453D2A-0CD5-FC60-F319-15ECE8EF6937</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="EQUIPO_PK" id="49648707-E690-D987-ADB8-A7FDFA60D2DA">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:57 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<schemaObject>07F8F6EC-F9F3-F6C8-A5D3-BAF140ABBBD3</schemaObject>
+<segment>D7B7A527-1516-CF72-F0FA-D2F978D10868</segment>
+<tableSpace>AD453D2A-0CD5-FC60-F319-15ECE8EF6937</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="EQUIPO_NOMBRE_UN" id="F11DCDF4-4620-C172-B031-8AE9AF2E07C7">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:57 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<schemaObject>07F8F6EC-F9F3-F6C8-A5D3-BAF140ABBBD3</schemaObject>
+<segment>D7B7A527-1516-CF72-F0FA-D2F978D10868</segment>
+<tableSpace>AD453D2A-0CD5-FC60-F319-15ECE8EF6937</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="EQUIPO_MIEMBROS_EQUIPO_FK" id="1FC9C358-34DB-C8A9-BD61-7CC583757029">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:59 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<lobStorages>
+<LobStorage class="oracle.dbtools.crest.model.design.storage.oracle.v11g.LobStorageOraclev11g" name="SYS_LOB0000278005C00005$$" id="BCD0910E-5DBF-F43C-1227-0C40593F8E03">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:59 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<cache>NOCACHE</cache>
+<chunk>8192</chunk>
+<column>DESCRIPCION</column>
+<compression>NO</compression>
+<duplication>KEEP_DUPLICATES</duplication>
+<logging>YES</logging>
+<tableSpace>AD453D2A-0CD5-FC60-F319-15ECE8EF6937</tableSpace>
+<lobStorageType>SECUREFILE</lobStorageType>
+</LobStorage>
+</lobStorages>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="EQUIPO_PK" id="FB13DDC2-F294-9B3B-3E9C-53965B9575DC">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:58 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<segment>D7B7A527-1516-CF72-F0FA-D2F978D10868</segment>
+<tableSpace>AD453D2A-0CD5-FC60-F319-15ECE8EF6937</tableSpace>
+<existingIndex>49648707-E690-D987-ADB8-A7FDFA60D2DA</existingIndex>
+<indexSegment>D7B7A527-1516-CF72-F0FA-D2F978D10868</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="EQUIPO_NOMBRE_UN" id="A448C345-DE6F-82E8-2CF7-3EF281BA11CB">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:58 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<segment>D7B7A527-1516-CF72-F0FA-D2F978D10868</segment>
+<tableSpace>AD453D2A-0CD5-FC60-F319-15ECE8EF6937</tableSpace>
+<existingIndex>F11DCDF4-4620-C172-B031-8AE9AF2E07C7</existingIndex>
+<indexSegment>D7B7A527-1516-CF72-F0FA-D2F978D10868</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev12c>

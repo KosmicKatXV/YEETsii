@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="71A96B11-C9BF-BB37-2CFC-337D9A7F53A5" mainViewID="C5E250F5-8326-DAE5-8A2E-D2797E96A107">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:03:42 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>79C73AAF-E1A7-E669-7DF0-025EE81A2AFC</selectedRDBMSSite>
+<importConnectionStamps>
+<importConnectionStamp class="oracle.dbtools.crest.imports.DBConnectionStamp">
+<connName>Afrodita</connName>
+<connUser>UBD1420</connUser>
+<connType>1</connType>
+</importConnectionStamp>
+</importConnectionStamps>
+</relationalModel>

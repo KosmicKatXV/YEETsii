@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RECORD_TRAMO_PILOTO_FK" directorySegmentName="seg_0" id="6E9B1BC0-1567-AEC0-EE62-F805F9B8442F">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:07:22 UTC</createdTime>
+<generatorID>53C85986-6BCE-1AB9-EFC4-A2D43BA7AE9C</generatorID>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<engineerTo>
+<item key="71A96B11-C9BF-BB37-2CFC-337D9A7F53A5" value="true"/>
+</engineerTo>
+<sourcePk>802F5737-EE71-24FE-2E55-0841EE963BD4</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>600064EE-A1B8-BDA0-373A-8C23C7DA550A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>87D400E0-0DBF-5503-D166-A76998213041</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

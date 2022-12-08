@@ -1,0 +1,212 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1A0777FE-6FA3-6199-1AA8-314DE2A1C7DE" schemaObject="07F8F6EC-F9F3-F6C8-A5D3-BAF140ABBBD3" name="CARRERA">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>UBD1420</sourceObjSchema>
+<sourceObjName>CARRERA</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PUESTO" id="33C31B7B-FBAB-ACD2-BBE5-DAAF662EB2AA">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>CARRERA</sourceObjSchema>
+<sourceObjName>PUESTO_CLASIFICACION</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MODELO" id="0F04E1D8-0AC0-0FB2-B2F3-E373B8406390">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>CARRERA</sourceObjSchema>
+<sourceObjName>MODELO_MOTO</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NEUM0" id="65851951-C93D-4044-3B18-F0E278F12ECB">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>CARRERA</sourceObjSchema>
+<sourceObjName>NEUMATICO_DELANTERO</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NEUM1" id="EFA04AF0-445A-EAF3-E46C-72A307EE94B1">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>CARRERA</sourceObjSchema>
+<sourceObjName>NEUMATICO_TRASERO</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAIDA" id="C089A0D8-4A4C-E188-1AA3-0D0A4F90460C">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>CARRERA</sourceObjSchema>
+<sourceObjName>CAIDAS</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIEMPO" id="66A0F61B-0679-FFC3-708E-D1CE40E84092">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>CARRERA</sourceObjSchema>
+<sourceObjName>TIEMPO</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,6,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="F48FD525-236F-4C37-E2A3-964D1E9115CC">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>CARRERA</sourceObjSchema>
+<sourceObjName>CIRCUITO_NOMBRE</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1F696E80-398E-50C5-8F88-D5C4FC371A64" referredColumn="015C121B-D9B8-A99D-FCD4-28F5C3F58EC5"/>
+</associations>
+</Column>
+<Column name="DORSAL" id="ED524E4A-9ADE-C844-CDF6-04467A7B7AB5">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>CARRERA</sourceObjSchema>
+<sourceObjName>PILOTO_DORSAL</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8930CCA3-630C-88CD-109C-F0765C58FE68" referredColumn="E36FF721-7253-E1C7-195E-743B92EFEBEB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4F78C61F-BAF0-4323-8698-27AC8C0E6C81" name="CARRERA_PK">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>UBD1420</sourceObjSchema>
+<sourceObjName>CARRERA_PK</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:58 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33C31B7B-FBAB-ACD2-BBE5-DAAF662EB2AA"/>
+<colUsage columnID="F48FD525-236F-4C37-E2A3-964D1E9115CC"/>
+<colUsage columnID="ED524E4A-9ADE-C844-CDF6-04467A7B7AB5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="70B7DB51-9A6C-720D-7D4A-36A2982BB71F" schemaObject="07F8F6EC-F9F3-F6C8-A5D3-BAF140ABBBD3" name="CARRERA__IDX">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>UBD1420</sourceObjSchema>
+<sourceObjName>CARRERA__IDX</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:57 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F48FD525-236F-4C37-E2A3-964D1E9115CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EC40020D-9FEC-1BE6-F4AD-E710800097D1" schemaObject="07F8F6EC-F9F3-F6C8-A5D3-BAF140ABBBD3" name="CARRERA__IDXV1">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>UBD1420</sourceObjSchema>
+<sourceObjName>CARRERA__IDXV1</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:57 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED524E4A-9ADE-C844-CDF6-04467A7B7AB5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7B24B100-1191-9F72-4754-3A20AD451B68" schemaObject="07F8F6EC-F9F3-F6C8-A5D3-BAF140ABBBD3" name="CARRERA_PK">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>UBD1420</sourceObjSchema>
+<sourceObjName>CARRERA_PK</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:57 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33C31B7B-FBAB-ACD2-BBE5-DAAF662EB2AA"/>
+<colUsage columnID="F48FD525-236F-4C37-E2A3-964D1E9115CC"/>
+<colUsage columnID="ED524E4A-9ADE-C844-CDF6-04467A7B7AB5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="19F38343-A4A1-1D47-E4D6-3DF721BABC22" name="CARRERA_CIRCUITO_FK">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:59 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F48FD525-236F-4C37-E2A3-964D1E9115CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CA416048-BA02-952F-BD5F-59FCBC912359" name="CARRERA_PILOTO_FK">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:59 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED524E4A-9ADE-C844-CDF6-04467A7B7AB5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

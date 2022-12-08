@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D8562AD0-FA51-BE98-7B6C-C06124A4545D" schemaObject="6A83CB41-0EA2-8FCC-9A78-329A702654A1" name="EXPERIENCIA">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>UBD2359</sourceObjSchema>
+<sourceObjName>EXPERIENCIA</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:58 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PILOTO_DORSAL" id="2799516C-70CF-8986-882C-A8925D48FE52">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>EXPERIENCIA</sourceObjSchema>
+<sourceObjName>PILOTO_DORSAL</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:59 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="33CB357C-7047-4B25-B37E-A95C66ACA02A" referredColumn="34C746ED-8BEE-544F-558A-D75993E80CC7"/>
+</associations>
+</Column>
+<Column name="PILOTO_DORSAL1" id="48067EDB-16AE-E6E6-7A9E-B7D258FB46F7">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>EXPERIENCIA</sourceObjSchema>
+<sourceObjName>PILOTO_DORSAL1</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:59 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5ED38ABC-0A01-D115-E4C8-0506B0C1A7EB" referredColumn="34C746ED-8BEE-544F-558A-D75993E80CC7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BDD9B085-C2B8-8270-E4B2-C3C797F1953B" name="EXPERIENCIA_PK">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>UBD2359</sourceObjSchema>
+<sourceObjName>EXPERIENCIA_PK</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:49:00 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2799516C-70CF-8986-882C-A8925D48FE52"/>
+<colUsage columnID="48067EDB-16AE-E6E6-7A9E-B7D258FB46F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D6C9FA72-5501-DAF6-A2EF-739A7B74FDF8" schemaObject="6A83CB41-0EA2-8FCC-9A78-329A702654A1" name="EXPERIENCIA_PK">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>UBD2359</sourceObjSchema>
+<sourceObjName>EXPERIENCIA_PK</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:48:59 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2799516C-70CF-8986-882C-A8925D48FE52"/>
+<colUsage columnID="48067EDB-16AE-E6E6-7A9E-B7D258FB46F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7C2634F9-64C8-EFD9-4147-49906D140CE7" name="EXPERIENCIA_PILOTO_FK">
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:49:01 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2799516C-70CF-8986-882C-A8925D48FE52"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4ABD2992-0E08-299D-D4E0-90C833AD33B6" name="EXPERIENCIA_PILOTO_FKV1">
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:49:01 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48067EDB-16AE-E6E6-7A9E-B7D258FB46F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

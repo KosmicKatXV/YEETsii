@@ -1,0 +1,57 @@
+ email theme
+  email theme 2
+ Desde este menu podremos configurar el diseño y el idioma de los correos que se enviarán a los clientes para notificarles de confirmaciones u ofertas. Tenemos una serie de diseños predeterminados, además de la posibilidad de crear el nuestro
+ 
+ image settings 
+ Desde este menu podremos gestionar las imagenes guardadas en la base de datos y se nos muestra la siguiente información de las imagenes:
+ID
+Nombre
+ancho
+Alto
+Donde se puede usar ?
+Productos
+Categorias
+Marcas
+Proveedores
+Tiendas
+
+image settings 2
+En esta parte del menu podemos ver las opciones técnicas para generar imágenes:
+formato
+compresión (JPG)
+compresión (PNG)
+tamaño máximo
+Ancho de la imagen del producto
+Altura de la imagen del producto
+Generar imagenes de alta resolucion
+
+image settings 3
+Aqui tenemos una menú más que permite regenerar las miniaturas de las imagenes generadas.
+
+Pages
+Desde este menú se podrán gestionar las páginas accesibles desde la tienda en línea. Permite:
+Modificar títulos
+Modificar URLs
+Añadir metadatos
+Modificar posición
+Ocultar
+
+Positions
+Este menú permitirá gestionar los módulos que se tengan instalados para aportar información sobre el rendimiento de la empresa u otrás funcionalidades, además permite elegir la posición de cada uno y modificar las opciones concretas de cada módulo.
+
+Theme catalog
+Esta zona es una tienda que permite buscar y descargar nuevos diseños para instalar en la página web.
+
+theme & logo
+este menú permite elegir como se adaptará la página web a los lenguajes de Derecha a Izquierda además de varias opciones para personalizar el logo corporativo tanto en la cabecer, como los correos y el "favicon".
+
+theme & logo 2
+en este apartaod del menú se puede elegir entre lo estilos ya descargados
+
+theme logo 3
+Desde este submenú se podrá modificar la organización de los elementos visuales en la propia página web. Cada apartado tiene su propio menu de configuarción.
+
+theme logo 4
+Este apartado permite modificar estilos de forma local accediendo al código HTML y CSS de cada uno para después subirlos de nuevo.
+
+

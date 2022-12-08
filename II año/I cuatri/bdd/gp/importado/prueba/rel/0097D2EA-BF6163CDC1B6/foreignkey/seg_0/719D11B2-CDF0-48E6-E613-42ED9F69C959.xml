@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="719D11B2-CDF0-48E6-E613-42ED9F69C959" containerWithKeyObject="8704A5E8-92B1-FAC1-2C02-1B7A3528523A" localFKIndex="0A297D8E-ACB6-B5FF-B40A-0FC0A292C6B0" name="ENTRENAMIENTO_TRAMO_FK">
+<sourceConnName>afrodita</sourceConnName>
+<sourceObjSchema>UBD2359</sourceObjSchema>
+<sourceObjName>ENTRENAMIENTO_TRAMO_FK</sourceObjName>
+<createdBy>Slav Garnet</createdBy>
+<createdTime>2021-11-03 15:49:01 UTC</createdTime>
+<ownerDesignName>prueba</ownerDesignName>
+<referredTableLongName>UBD2359.TRAMO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2B8E23C9-48C8-7ED6-3C72-202468697412</referredTableID>
+<keyObject>1222DDB6-57EE-A538-A320-3553CEFAB48F</keyObject>
+<referredKeyID>1222DDB6-57EE-A538-A320-3553CEFAB48F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>NOMBRE_TRAMO,CIRCUITO_NOMBRE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

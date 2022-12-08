@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="79FAB11C-0F41-4D9C-28E3-72BE4018BDD7" containerWithKeyObject="DCCD2B62-BEA6-2F33-327F-0C143C9E7638" localFKIndex="1FC9C358-34DB-C8A9-BD61-7CC583757029" name="EQUIPO_MIEMBROS_EQUIPO_FK">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>UBD1420</sourceObjSchema>
+<sourceObjName>EQUIPO_MIEMBROS_EQUIPO_FK</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:59 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<referredTableLongName>UBD1420.MIEMBROS_EQUIPO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E36DEDD9-F368-E98A-55A9-4F1F9CF4F00D</referredTableID>
+<keyObject>2AF1C5DD-7688-F345-673F-4537E3E92D3D</keyObject>
+<referredKeyID>2AF1C5DD-7688-F345-673F-4537E3E92D3D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PASAPORTE,NACIONALIDAD</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

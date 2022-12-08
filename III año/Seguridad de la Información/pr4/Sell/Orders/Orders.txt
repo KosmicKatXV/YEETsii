@@ -1,0 +1,34 @@
+ Credit Slips
+ Desde este menú se gestionan los tickets a favor de los clientes que hayan pedido la devolución de sus productos. Permite desde el menú inferior elegir el rango de los tickes a visualizar.
+ 
+ Credit Slips 2
+ Desde el menú del fondo se pueden definir los prefijos a usar por los tickers.
+ 
+ Delivery Slips
+ En el primer menú podremos generar un pdf con todos los pedidos en un rango específico de tiempo. En el menu inferior podemos configurar estos tickets de pedidos, desde sus prefijos, su numero y si queremos añadir la imagen del producto al ticket.
+ 
+ Invoices
+ En el primer menú podremos generar un pdf con todos los correos de entrada en un rango específico de tiempo. En el menu inferior podemos seleccionar que correos en función de su estado.
+ 
+ Pedidos
+ Este menú viene encabezado por un resumen estadístico de los pedidos donde podemos ver el ratio de conversión de los últimos 30 días, los carros abandonados hoy, el valor medio de los pedidos y el beneficio neto por visita. Debajo de este encontramos un visor de bases de datos donde podemos observar los siguientes campos de cada pedido:
+ID
+Referencia
+Nuevo CLiente
+Pedido
+cliente
+Total
+Pago
+Estado
+Fecha
+Acciones
+
+Carritos
+ Este menú viene encabezado por un resumen estadístico de los pedidos donde podemos ver el ratio de conversión de los últimos 30 días, los carros abandonados hoy, el valor medio de los pedidos y el beneficio neto por visita. Debajo de este encontramos un visor de bases de datos donde podemos observar los siguientes campos de cada pedido:
+ID
+ID pedido
+cliente
+Total
+Portador
+Fecha
+En línea

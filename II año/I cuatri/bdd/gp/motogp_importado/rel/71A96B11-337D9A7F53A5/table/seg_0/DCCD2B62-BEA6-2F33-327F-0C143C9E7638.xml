@@ -1,0 +1,241 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DCCD2B62-BEA6-2F33-327F-0C143C9E7638" schemaObject="07F8F6EC-F9F3-F6C8-A5D3-BAF140ABBBD3" name="EQUIPO">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>UBD1420</sourceObjSchema>
+<sourceObjName>EQUIPO</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="1361BEE2-8B8F-770B-3527-566784FDEA98">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>EQUIPO</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="E6DB0BD3-D883-FD7E-7B20-B641F4B91D8E">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>EQUIPO</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION_EQUIPO" id="D7FB4FFD-7405-64CB-C5E3-278A6AE1C245">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>EQUIPO</sourceObjSchema>
+<sourceObjName>DIRECCION_EQUIPO</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WEB" id="61D88187-8093-30AC-A559-DA2C06491914">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>EQUIPO</sourceObjSchema>
+<sourceObjName>WEB</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="322D7247-8E60-7378-1C19-7A11E88A1214">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>EQUIPO</sourceObjSchema>
+<sourceObjName>DESCRIPCION</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FOTO_OFICIAL" id="60553A29-A54F-83FE-6C42-6CF744CF2955">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>EQUIPO</sourceObjSchema>
+<sourceObjName>FOTO_OFICIAL</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOGO" id="0850808F-7818-2656-67A3-FFF8E9CB7EEE">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>EQUIPO</sourceObjSchema>
+<sourceObjName>LOGO</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MODELO_MOTO" id="942804F8-3C89-AD04-7498-91708B95831A">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>EQUIPO</sourceObjSchema>
+<sourceObjName>MODELO_MOTO</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MIEMBROS_EQUIPO_PASAPORTE" id="DC3035F0-3F28-45CF-EA44-4DE42FBB2352">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>EQUIPO</sourceObjSchema>
+<sourceObjName>MIEMBROS_EQUIPO_PASAPORTE</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="79FAB11C-0F41-4D9C-28E3-72BE4018BDD7" referredColumn="50EB5C8A-4978-2B1E-496A-E9BFEB58FCE4"/>
+</associations>
+</Column>
+<Column name="MIEMBROS_EQUIPO_NACIONALIDAD" id="36CABD92-334F-58D5-733D-E584F9A3EA59">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>EQUIPO</sourceObjSchema>
+<sourceObjName>MIEMBROS_EQUIPO_NACIONALIDAD</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="79FAB11C-0F41-4D9C-28E3-72BE4018BDD7" referredColumn="D81B79C3-8341-240E-4147-A3CF2A3CEEB3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FB13DDC2-F294-9B3B-3E9C-53965B9575DC" name="EQUIPO_PK">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>UBD1420</sourceObjSchema>
+<sourceObjName>EQUIPO_PK</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:58 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1361BEE2-8B8F-770B-3527-566784FDEA98"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A448C345-DE6F-82E8-2CF7-3EF281BA11CB" name="EQUIPO_NOMBRE_UN">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>UBD1420</sourceObjSchema>
+<sourceObjName>EQUIPO_NOMBRE_UN</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:58 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6DB0BD3-D883-FD7E-7B20-B641F4B91D8E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2CC1884D-9EF9-7C72-C57E-D2DE42B4E36B" schemaObject="07F8F6EC-F9F3-F6C8-A5D3-BAF140ABBBD3" name="EQUIPO__IDX">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>UBD1420</sourceObjSchema>
+<sourceObjName>EQUIPO__IDX</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:57 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC3035F0-3F28-45CF-EA44-4DE42FBB2352"/>
+<colUsage columnID="36CABD92-334F-58D5-733D-E584F9A3EA59"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F11DCDF4-4620-C172-B031-8AE9AF2E07C7" schemaObject="07F8F6EC-F9F3-F6C8-A5D3-BAF140ABBBD3" name="EQUIPO_NOMBRE_UN">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>UBD1420</sourceObjSchema>
+<sourceObjName>EQUIPO_NOMBRE_UN</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:57 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6DB0BD3-D883-FD7E-7B20-B641F4B91D8E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="49648707-E690-D987-ADB8-A7FDFA60D2DA" schemaObject="07F8F6EC-F9F3-F6C8-A5D3-BAF140ABBBD3" name="EQUIPO_PK">
+<sourceConnName>Afrodita</sourceConnName>
+<sourceObjSchema>UBD1420</sourceObjSchema>
+<sourceObjName>EQUIPO_PK</sourceObjName>
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:57 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1361BEE2-8B8F-770B-3527-566784FDEA98"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1FC9C358-34DB-C8A9-BD61-7CC583757029" name="EQUIPO_MIEMBROS_EQUIPO_FK">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:59 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC3035F0-3F28-45CF-EA44-4DE42FBB2352"/>
+<colUsage columnID="36CABD92-334F-58D5-733D-E584F9A3EA59"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

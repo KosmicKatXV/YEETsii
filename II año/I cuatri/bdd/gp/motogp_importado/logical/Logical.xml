@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="AC0B09E1-3D8F-7B32-0F07-5B0B02CBABC1" mainViewID="939F0314-A2FD-EB1D-92BA-DCE9D51C2B83">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:03:41 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

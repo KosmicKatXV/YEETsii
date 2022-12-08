@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TRAMO_CIRCUITO_FK" directorySegmentName="seg_0" id="97F267E8-E76D-BF9B-5D28-BBFAB120A81E">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:07:22 UTC</createdTime>
+<generatorID>219A0F1F-005B-051B-4915-DFAD7308FB7D</generatorID>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<engineerTo>
+<item key="71A96B11-C9BF-BB37-2CFC-337D9A7F53A5" value="true"/>
+</engineerTo>
+<sourcePk>69BABDA2-6C9F-A020-A02F-15AB1AD72F77</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5F142D0A-4A6D-03E3-5EA4-AB20D3B17D51</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3EDDF05A-E117-9DFF-348B-5376ECD6FBA3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

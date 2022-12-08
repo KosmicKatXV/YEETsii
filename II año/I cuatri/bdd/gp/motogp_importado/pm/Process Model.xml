@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="715180BD-7854-C1C4-35C4-500AB8F4CA7D">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:03:41 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

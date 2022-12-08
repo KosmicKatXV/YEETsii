@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="TRAMO" directorySegmentName="seg_0" id="3AA57C18-6218-7CEF-8598-6B03932197DD">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<schemaObject>07F8F6EC-F9F3-F6C8-A5D3-BAF140ABBBD3</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>41B93E74-C58B-5531-2ACD-D05E19649E2D</segment>
+<tableSpace>AD453D2A-0CD5-FC60-F319-15ECE8EF6937</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CIRCUITO_NOMBRE" id="4986CB3E-BAC2-2849-7F4E-EBF0CA01FCA2">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ASFALTO" id="694F8A81-40A6-5DEF-4C89-BFA2768ABE95">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESNIVEL" id="713DBDF8-3502-17FA-A940-5F2F7200DE20">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBRE_TRAMO" id="7B67B796-5BDE-F07E-00AD-CF5491ABAD3A">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VELOCIDAD_MAX_ANTERIOR" id="82EAA891-4E37-99DC-8450-7D425801A064">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VELOCIDAD_MEDIA_ANTERIOR" id="E60F44BD-9710-26B0-60CE-3242404E321C">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LONGITUD_METROS" id="FFE59DDC-D617-0CDF-6EF9-27E9799FB8C5">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:56 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="TRAMO_PK" id="A1043CBF-980A-FA1F-5CB4-0392A3B6D68C">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:57 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<schemaObject>07F8F6EC-F9F3-F6C8-A5D3-BAF140ABBBD3</schemaObject>
+<segment>D7B7A527-1516-CF72-F0FA-D2F978D10868</segment>
+<tableSpace>AD453D2A-0CD5-FC60-F319-15ECE8EF6937</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="TRAMO_CIRCUITO_FK" id="86E4CE7C-0F2A-4C6E-A15A-C40DC830E82B">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:59 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TRAMO_PK" id="1EADBCCB-B59E-1314-0C25-074C5C47A0D7">
+<createdBy>compux72</createdBy>
+<createdTime>2020-10-29 12:04:58 UTC</createdTime>
+<ownerDesignName>motogp_importado</ownerDesignName>
+<segment>D7B7A527-1516-CF72-F0FA-D2F978D10868</segment>
+<tableSpace>AD453D2A-0CD5-FC60-F319-15ECE8EF6937</tableSpace>
+<existingIndex>A1043CBF-980A-FA1F-5CB4-0392A3B6D68C</existingIndex>
+<indexSegment>D7B7A527-1516-CF72-F0FA-D2F978D10868</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>
