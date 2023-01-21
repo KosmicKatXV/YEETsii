@@ -1,0 +1,34 @@
+import java_cup.runtime.*;
+
+//Terminal
+//without attribute
+terminal MAS, MENOS, POR, DIV, AP, CP, LT;
+//with attribute
+terminal Integer NUMERO;
+
+//Non terminal
+non terminal Object lista_expr, linea;
+non terminal Integer expr;
+
+//Precedence
+precedence left LT;
+precedence left MAS, MENOS;
+precedence left POR, DIV;
+
+lista_expr ::= lista_expr linea
+    | linea
+;
+
+linea ::= expr:e {: System.out.println(e); :}
+    | LT
+;
+
+// %prec POR es para asignar la precedencia de POR a esa operación
+expr ::= expr:e1 MAS expr:e2 {: RESULT = e1 + e2; :}
+    | expr:e1 MENOS expr:e2 {: RESULT = e1 - e2; :}
+    | expr:e1 POR expr:e2 {: RESULT = e1 * e2; :}
+    | expr:e1 DIV expr:e2 {: RESULT = e1 / e2; :}
+    | NUMERO:n {: RESULT = n; :}
+    | MENOS expr:e {: RESULT = -e; :} %prec POR //se pone porque sino da un error de division por 0
+    | AP expr:e CP {: RESULT = (e); :}
+;

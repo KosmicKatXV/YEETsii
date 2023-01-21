@@ -1,0 +1,17 @@
+import java_cup.runtime.*;
+
+terminal        String  IDENT;
+terminal                INT, DOUBLE, PYC, COMA, DP;
+           
+non terminal    List<String>    list;
+non terminal    String          func;
+non terminal                    decl;
+
+
+decl ::=  list:l DP func PYC {: System.out.print(l); :}
+        ;
+list ::=  list:l   {: RESULT = l; :} COMA IDENT:id {: RESULT.add(id); :}
+        | IDENT:id {: RESULT = new ArrayList<String>();  RESULT.add(id); :}
+        ;
+func ::=  INT:st        {: RESULT = st; :}
+        | DOUBLE:st     {: RESULT = st; :}

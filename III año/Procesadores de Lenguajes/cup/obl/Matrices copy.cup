@@ -1,0 +1,28 @@
+import java_cup.runtime.*;
+
+terminal        String  INVERSA, TRANSPUESTA, ADJUNTA, PRINT, IDENT;
+terminal        Double  NUMERO;
+terminal                ALL, CLL, AP, CP, AC, CC, COMA, PYC, ASIG, MAS, MENOS, POR, DIV;
+           
+non terminal    String  expr, matriz, mdef, fila, func;
+
+precedence left CP;
+precedence left MAS, MENOS;
+precedence left POR, DIV;
+
+expr ::=  expr PYC
+        | func AP matriz CP
+        ;
+matriz ::=  func AP matriz CP
+        | matriz:e1 MAS matriz:e2 
+        | matriz:e1 MENOS matriz:e2 
+        | matriz:e1 POR matriz:e2 
+        | matriz:e1 DIV matriz:e2 
+        | AC mdef CC
+        ;
+mdef ::=  fila PYC mdef
+        | fila
+        ;
+fila ::=  NUMERO COMA fila
+        | NUMERO
+        ;

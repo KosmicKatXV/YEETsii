@@ -1,0 +1,16 @@
+import java_cup.runtime.*;
+import java.util.*;
+
+terminal        Integer  NUMERO;      
+non terminal    List<Integer>  list;
+non terminal    S;
+
+S    ::= list:l {:
+        boolean fib = true;
+        if(l.size() > 2) for(int i = 2 ; i < l.size() && fib; i++) fib &= l.get(i) == (l.get(i-1) + l.get(i-2));
+        System.out.print(fib ? "SI" : "NO");
+        :}
+        ;
+list ::= list:l {: RESULT = l; :} NUMERO:n {: RESULT.add(n); :} 
+        | {: RESULT = new ArrayList<Integer>(); :}
+        ;

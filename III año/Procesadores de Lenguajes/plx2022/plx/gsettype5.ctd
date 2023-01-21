@@ -1,0 +1,5 @@
+   $t0[0] = 1;
+   $t0[1] = 2.2;
+# ERROR: Los tipos de los elementos de la matriz son diferentes
+   error;
+   halt;

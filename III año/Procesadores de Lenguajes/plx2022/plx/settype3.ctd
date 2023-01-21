@@ -1,0 +1,43 @@
+    c[0] = 68;
+    c[1] = 67;
+    c[2] = 66;
+    c[3] = 65;
+    $c_length = 4;
+    d[0] = 71;
+    d[1] = 70;
+    d[2] = 69;
+    $d_length = 3;
+    #ite_start d Start
+L0:
+    if ($t0 < $d_length) goto L1;
+    goto L2;
+L1:
+    #ite_start d END
+    $t1 = d[$t0];
+    writec $t1;
+    writec 32;
+    #ite_end for: $t0
+    $t0 = $t0 + 1;
+    goto L0;
+L2:
+    $t0 = 0;
+    #ite_end END
+    writec 10;
+    d = c;
+    $d_length = $c_length;
+    #ite_start d Start
+L4:
+    if ($t2 < $d_length) goto L5;
+    goto L6;
+L5:
+    #ite_start d END
+    $t3 = d[$t2];
+    writec $t3;
+    writec 32;
+    #ite_end for: $t2
+    $t2 = $t2 + 1;
+    goto L4;
+L6:
+    $t2 = 0;
+    #ite_end END
+    writec 10;

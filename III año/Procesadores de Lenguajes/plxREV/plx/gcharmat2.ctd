@@ -1,0 +1,40 @@
+   $st_length = 3;
+   $t0[0] = 65;
+   $t0[1] = 66;
+   $t0[2] = 67;
+   $t1 = $t0[0];
+   st[0] = $t1;
+   $t1 = $t0[1];
+   st[1] = $t1;
+   $t1 = $t0[2];
+   st[2] = $t1;
+   if (2 < 0) goto L0;
+   if (3 < 2) goto L0;
+   if (3 == 2) goto L0;
+   goto L1;
+L0:
+   error;
+   halt;
+L1:
+   $t2 = st[2];
+   printc $t2;
+   if (1 < 0) goto L2;
+   if (3 < 1) goto L2;
+   if (3 == 1) goto L2;
+   goto L3;
+L2:
+   error;
+   halt;
+L3:
+   $t3 = st[1];
+   printc $t3;
+   if (0 < 0) goto L4;
+   if (3 < 0) goto L4;
+   if (3 == 0) goto L4;
+   goto L5;
+L4:
+   error;
+   halt;
+L5:
+   $t4 = st[0];
+   printc $t4;

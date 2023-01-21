@@ -1,0 +1,4 @@
+a = set {1,2,2,3,3};
+b = set a;
+print(set b);
+

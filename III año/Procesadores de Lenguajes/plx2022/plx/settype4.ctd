@@ -1,0 +1,29 @@
+  # ERROR: Error de tipos;
+    error;
+    halt;
+    c[0] = 3.4;
+  # ERROR: Error de tipos;
+    error;
+    halt;
+    c[1] = 2.3;
+  # ERROR: Error de tipos;
+    error;
+    halt;
+    c[2] = 1.2;
+    $c_length = 3;
+    #ite_start c Start
+L0:
+    if ($t0 < $c_length) goto L1;
+    goto L2;
+L1:
+    #ite_start c END
+    $t1 = c[$t0];
+    write $t1;
+    writec 32;
+    #ite_end for: $t0
+    $t0 = $t0 + 1;
+    goto L0;
+L2:
+    $t0 = 0;
+    #ite_end END
+    writec 10;

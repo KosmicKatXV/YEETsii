@@ -1,0 +1,8 @@
+    $st_length = 3;
+    st[0] = 67;
+    st[1] = 66;
+    st[2] = 65;
+    $st_length = 3;
+    print st[2];
+    print st[1];
+    print st[0];

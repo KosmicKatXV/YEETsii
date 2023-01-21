@@ -1,0 +1,23 @@
+import java_cup.runtime.*;
+
+terminal        String  NUMERO, IDENT;
+terminal                MENOS, MAS, POR, DIV, AP, CP;
+           
+non terminal    String  expr, op, var, def;
+
+precedence left CP;
+precedence left MAS, MENOS;
+precedence left POR, DIV;
+
+def ::= expr:e1 {: System.out.print(e1); :}
+        ;
+expr ::=  expr:e1 MAS expr:e2 {: RESULT = "+ "+e1+" "+e2;:}
+        | expr:e1 MENOS expr:e2 {: RESULT = "- "+e1+" "+e2;:}
+        | expr:e1 POR expr:e2 {: RESULT = "* "+e1+" "+e2;:}
+        | expr:e1 DIV expr:e2 {: RESULT = "/ "+e1+" "+e2;:}
+        | AP expr:e1 CP {: RESULT = e1; :}
+        | var:e1 {: RESULT = e1; :}
+        ;
+var ::=   NUMERO:st   {: RESULT = st; :}
+        | IDENT:st  {: RESULT = st; :}
+        ;

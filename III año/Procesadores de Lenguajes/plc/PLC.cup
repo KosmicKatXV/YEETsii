@@ -1,0 +1,64 @@
+import java_cup.runtime.*;
+import java.util.*; 
+
+action code {:
+:};
+
+terminal        String  IDENT,NUMERO;
+terminal                ALL, CLL, AP, CP, PYC, ASIG, MAS, MENOS, POR, DIV;
+terminal                LEQ, LNEQ, LMA, LMAQ, LME, LMEQ, LNE, LAND, LOR;
+terminal                IF, ELSE, WHILE, DO, FOR, PRINT;
+           
+non terminal                sent,lsent,else;
+non terminal    String      expr;
+non terminal    Tag         cond;
+
+precedence left CP;
+precedence left LOR;
+precedence left LAND;
+precedence left LEQ, LNEQ, LMA, LMAQ, LME, LMEQ;
+precedence left MAS, MENOS;
+precedence left POR, DIV;
+precedence nonassoc IF;
+precedence nonassoc ELSE;
+
+lsent   ::=   sent lsent
+            | sent
+            ;
+sent    ::=   expr PYC
+            | IF AP cond:c CP {:
+                comp.labelIt(c.getV());
+                comp.addTag(c);
+            :} sent else
+            | WHILE AP cond CP sent
+            | DO {: comp.do_start(); :} sent WHILE AP cond:c CP PYC{:
+                comp.do_end(c);
+            :}
+            | FOR AP sent {: comp.for_start(); :} cond:c PYC {: comp.for_mid1(); :} expr CP {: comp.for_mid2(c); :} sent {: comp.for_end(c); :}
+            | PRINT AP expr:e CP PYC {: comp.print(e); :}
+            | ALL lsent CLL
+            ;
+else    ::=   ELSE {: comp.if_else(); :} sent {: comp.if_end(true); :}
+            | {: comp.if_end(false); :}
+            ;
+expr    ::=   expr:e1 MAS expr:e2   {: RESULT = comp.op(e1,e2,0); :}
+            | expr:e1 MENOS expr:e2 {: RESULT = comp.op(e1,e2,1); :}
+            | expr:e1 POR expr:e2   {: RESULT = comp.op(e1,e2,2); :}
+            | expr:e1 DIV expr:e2   {: RESULT = comp.op(e1,e2,3); :}
+            | MENOS expr:e          {: RESULT = comp.op("",e,1); :}
+            | AP expr:e CP          {: RESULT = e; :}
+            | IDENT:id              {: RESULT = id; :}
+            | IDENT:id ASIG expr:e  {: RESULT = comp.asig(id,e); :}
+            | NUMERO:n {: RESULT = n; :}
+            ;
+cond    ::=   expr:e1 LEQ  expr:e2  {: RESULT = comp.if_start(e1,e2,0); :}
+            | expr:e1 LNEQ expr:e2  {: RESULT = comp.if_start(e1,e2,1); :}
+            | expr:e1 LMA  expr:e2  {: RESULT = comp.if_start(e1,e2,2); :}
+            | expr:e1 LMAQ expr:e2  {: RESULT = comp.if_start(e1,e2,3); :}
+            | expr:e1 LME  expr:e2  {: RESULT = comp.if_start(e1,e2,4); :}
+            | expr:e1 LMEQ expr:e2  {: RESULT = comp.if_start(e1,e2,5); :}
+            | cond:c1 LAND          {: comp.labelIt(c1.getV()); :} cond:c2 {: RESULT = comp.lop(c1,c2,false); :}
+            | cond:c1 LOR           {: comp.labelIt(c1.getF()); :} cond:c2 {: RESULT = comp.lop(c1,c2,true); :}
+            | AP cond:c CP          {: RESULT = c; :}
+            | LNE cond:c            {: RESULT = c.invert(); :}
+            ;

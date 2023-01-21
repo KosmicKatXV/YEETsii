@@ -1,0 +1,77 @@
+   $t0[0] = 65;
+   $t0[1] = 66;
+   $t0[2] = 67;
+   $t0[3] = 68;
+# asignar array c <- $t0
+   $c_length = 0;
+   $t1 = 0;
+L0:
+   if ($t1 < 4) goto L1;
+   goto L2;
+L1:
+   $t2 = $t0[$t1];
+   $t3 = 0;
+L3:
+   if ($t3 == $c_length) goto L4;
+   $t4 = c[$t3];
+   if ($t4 == $t2) goto L5;
+   $t3 = $t3 + 1;
+   goto L3;
+L4:
+   c[$c_length] = $t2;
+   $c_length = $c_length + 1;
+L5:
+   $t1 = $t1 + 1;
+   goto L0;
+L2:
+   $t5[0] = 69;
+   $t5[1] = 70;
+   $t5[2] = 71;
+# asignar array d <- $t5
+   $d_length = 0;
+   $t6 = 0;
+L6:
+   if ($t6 < 3) goto L7;
+   goto L8;
+L7:
+   $t7 = $t5[$t6];
+   $t8 = 0;
+L9:
+   if ($t8 == $d_length) goto L10;
+   $t9 = d[$t8];
+   if ($t9 == $t7) goto L11;
+   $t8 = $t8 + 1;
+   goto L9;
+L10:
+   d[$d_length] = $t7;
+   $d_length = $d_length + 1;
+L11:
+   $t6 = $t6 + 1;
+   goto L6;
+L8:
+   $t10 = 0;
+L12:
+   if ($t10 < $d_length) goto L13;
+   goto L14;
+L13:
+   $t11 = d[$t10];
+   writec $t11;
+   writec 32;
+   $t10 = $t10 + 1;
+   goto L12;
+L14:
+   writec 10;
+   $d_length = $c_length;
+   d = c;
+   $t12 = 0;
+L15:
+   if ($t12 < $d_length) goto L16;
+   goto L17;
+L16:
+   $t13 = d[$t12];
+   writec $t13;
+   writec 32;
+   $t12 = $t12 + 1;
+   goto L15;
+L17:
+   writec 10;

@@ -1,0 +1,49 @@
+import java_cup.runtime.*;
+import java.util.*;
+
+action code {: double[][] mtmp; :}; 
+
+terminal                UMENOS,ALL,CLL,AP,CP,AC,CC,COMA,PYC,ASIG,MAS,MENOS,POR,DIV,CONCATENA;
+terminal    String      INVERSA,TRANSPUESTA,ADJUNTA,PRINT, IDENT;
+terminal    double[][]  MATRIZ;
+terminal    double[]    VECTOR;
+terminal    double      NUMERO;
+
+non terminal                codestring, expr;
+non terminal    String      func;
+non terminal    ArrayList<Double>        def1;
+non terminal    ArrayList<ArrayList<Double>>  def2;
+non terminal    double[][]  def0;
+non terminal    double      ndef;
+
+precedence left UMENOS;
+precedence left AP;
+precedence left MAS,MENOS;
+precedence left POR,DIV;
+
+codestring ::=  expr PYC codestring
+        | expr PYC
+        ;
+expr ::=  IDENT:id ASIG def0:mtmp {:
+        if(TablaSimbolos.check(id)) {
+            if(Matrices.filas(mtmp) == 1)   TablaSimbolos.insertarVector(id,mtmp[0]);
+            else                            TablaSimbolos.insertar(id,mtmp);
+        }
+        :}
+        | PRINT AP MATRIZ:m CP      {: Matrices.print(m); :}
+        | PRINT AP VECTOR:v CP      {: Matrices.print(v); :}
+        | PRINT AP ndef:n CP      {: Matrices.print(n); :}
+        | PRINT AP def0:d CP        {: Matrices.print(d); :}
+        ;
+def0   ::=  ALL def2:d CLL {: RESULT = Matrices.toArray(d); :}
+          | ALL def1:d CLL {: RESULT = Matrices.toMatriz(Matrices.toVector(d)); :}
+          ;
+def2   ::=  def2:d2 {: RESULT = d2; :} COMA ALL def1:d1 CLL {: RESULT.add(d1); :}
+          | ALL def1:d CLL {: RESULT = new ArrayList<ArrayList<Double>>(); RESULT.add(d); :}
+          ;
+def1   ::=  def1:d {: RESULT = d; :} COMA ndef:n {: RESULT.add(n); :}
+          | ndef:n {: RESULT = new ArrayList<Double>() ; RESULT.add(n); :}
+          ;
+ndef   ::=  NUMERO:n {: RESULT = n; :}
+          | MENOS NUMERO:n {: RESULT = -1*n; :} %prec UMENOS 
+          ;

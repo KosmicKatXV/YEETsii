@@ -1,0 +1,18 @@
+import java_cup.runtime.*;
+import java.util.*; 
+
+terminal        String  IDENT;
+terminal                PYC, INT, DOUBLE;
+
+non terminal            def;
+non terminal    List<String>    elem;
+non terminan    String  class;
+
+def ::= class:c elem:e PYC {: for(int i = 1 ; i <= e.size() ; i++)  System.out.print(e.get(e.size() - i) + ":" + c + "; "); :}
+        ;
+elem ::= IDENT:st       {: RESULT = new ArrayList<String>(); RESULT.add(st); :}
+        | IDENT:st      elem:e {: RESULT = e; RESULT.add(st); :}
+        ;
+class ::= INT           {: RESULT = "int"; :}
+        | DOUBLE        {: RESULT = "double"; :}
+        ;

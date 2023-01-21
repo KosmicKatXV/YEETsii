@@ -1,0 +1,11 @@
+import java_cup.runtime.*;
+
+terminal        String  IDENT, NUMERO;
+non terminal            lista, elemento;
+
+lista ::= elemento:st {: :} lista {: System.out.print(st + " ");:}
+        | elemento:st {: System.out.print(st + " "); :}
+        ;
+elemento ::= IDENT:st {: RESULT = st; :}
+        | NUMERO:st {: RESULT = st; :}
+        ;

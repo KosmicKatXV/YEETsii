@@ -1,0 +1,10 @@
+    $st_length = 5;
+    st[0] = A;
+    st[1] = B;
+    st[2] = C;
+    $t0 = st[2];
+    print $t0;
+    $t1 = st[1];
+    print $t1;
+    $t2 = st[0];
+    print $t2;

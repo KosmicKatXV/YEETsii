@@ -1,0 +1,86 @@
+import java_cup.runtime.*;
+import java.util.*; 
+action code {: Map<String,double[][]> varmap = new HashMap<String,double[][]>(); :};
+
+terminal        String  INVERSA, TRANSPUESTA, ADJUNTA, PRINT, IDENT;
+terminal        Double  NUMERO;
+terminal                ALL, CLL, AP, CP, AC, CC, COMA, PYC, ASIG, MAS, MENOS, POR, DIV;
+           
+non terminal    String                          func;
+non terminal    ArrayList<Double>               fila;
+non terminal    ArrayList<ArrayList<Double>>    mdef,jdef;
+non terminal    double[][]                      matriz;
+non terminal    Map<String,double[][]>          cod,expr;
+
+precedence left CP;
+precedence left MAS, MENOS;
+precedence left POR, DIV;
+
+cod ::=   matriz PYC cod
+        | matriz PYC 
+        ;
+matriz ::=  func:f AP matriz:m CP {:
+        switch(f){
+            case "inversa":
+                boolean eq = Matrices.filas(m) == Matrices.columnas(m);
+                if(eq)  RESULT = Matrices.inversa(m);
+                else    {System.out.println(Matrices.ERROR_INVERSA); System.exit(-1);}
+                break;
+            case "transpuesta":
+                RESULT = Matrices.transpuesta(m);
+                break;
+            case "adjunta":
+                if(Matrices.filas(m) == Matrices.columnas(m))   RESULT = Matrices.adjunta(m);
+                else                                            {System.out.println(Matrices.ERROR_ADJUNTA); System.exit(-1);}
+                break;
+            case "print":
+                Matrices.print(m);
+                break;
+        }
+        :}
+        | matriz:e1 MAS matriz:e2 {: 
+            RESULT =  Matrices.suma(e1,e2);
+        :}
+        | matriz:e1 MENOS matriz:e2 {:
+            RESULT =  Matrices.suma(e1,Matrices.producto(-1,e2));
+        :}
+        | matriz:e1 POR matriz:e2 {:
+            if(Matrices.columnas(e1) == Matrices.filas(e2)) RESULT =  Matrices.producto(e1,e2);
+            else                                            {System.out.println(Matrices.ERROR_PROD);System.exit(-1);}
+        :}
+        | matriz:e1 DIV matriz:e2 {:
+            RESULT =  Matrices.producto(e1,Matrices.inversa(e2));
+        :}
+        | ALL jdef:m CLL {:
+            boolean eq = true;
+            for(int i = 2; i < m.size() && eq ; i++) eq &= m.get(i).size() == m.get(i-1).size();
+            if(eq)  RESULT = Matrices.toArray(m);
+            else    {System.out.println(Matrices.ERROR_FILAS); System.exit(-1);}
+        :}
+        | AC mdef:m CC {:
+            boolean eq = true;
+            for(int i = 2; i < m.size() && eq ; i++) eq &= m.get(i).size() == m.get(i-1).size();
+            if(eq)  RESULT = Matrices.toArray(m);
+            else    {System.out.println(Matrices.ERROR_FILAS); System.exit(-1);}
+        :}
+        | IDENT:id {:
+        if(varmap.get(id) == null)  System.exit(-1);
+        else                        RESULT = varmap.get(id);
+        :}
+        | IDENT:id ASIG matriz:m {: varmap.put(id,m); :}
+        | AP matriz:m CP {: RESULT = m; :}
+        ;
+mdef ::=  mdef:m {: RESULT = m; :} PYC fila:f {: RESULT.add(f); :}
+        | fila:f {: RESULT = new ArrayList<ArrayList<Double>>(); RESULT.add(f); :}
+        ;
+jdef ::=  jdef:m {: RESULT = m; :} COMA ALL fila:f CLL {: RESULT.add(f); :}
+        | ALL fila:f CLL {: RESULT = new ArrayList<ArrayList<Double>>(); RESULT.add(f); :}
+        ;
+fila ::=  fila:f {: RESULT = f; :} COMA NUMERO:st {: RESULT.add(st); :}
+        | NUMERO:st {: RESULT = new ArrayList<Double>(); RESULT.add(st); :}
+        ;
+func ::=  INVERSA:st {: RESULT = st; :}
+        | ADJUNTA:st {: RESULT = st; :}
+        | TRANSPUESTA:st {: RESULT = st; :}
+        | PRINT:st {: RESULT = st; :}
+        ;
